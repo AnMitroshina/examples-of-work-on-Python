@@ -1,0 +1,1927 @@
+16-03-2020 23:53 DEBUG получено событие
+16-03-2020 23:53 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+16-03-2020 23:53 DEBUG получено событие
+16-03-2020 23:53 DEBUG получено событие
+16-03-2020 23:53 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+21-03-2020 13:39 DEBUG получено событие
+21-03-2020 13:39 ERROR Ошибка в обработке события
+Traceback (most recent call last):
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 66, in run
+    self.on_event(event)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 87, in on_event
+    if any(token in text for token in intent['token']):
+KeyError: 'token'
+21-03-2020 13:39 DEBUG получено событие
+21-03-2020 13:39 DEBUG получено событие
+21-03-2020 13:39 ERROR Ошибка в обработке события
+Traceback (most recent call last):
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 66, in run
+    self.on_event(event)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 87, in on_event
+    if any(token in text for token in intent['token']):
+KeyError: 'token'
+21-03-2020 13:41 DEBUG получено событие
+21-03-2020 13:41 DEBUG получено событие
+21-03-2020 13:41 DEBUG получено событие
+21-03-2020 14:28 DEBUG получено событие
+21-03-2020 14:28 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+21-03-2020 14:28 DEBUG получено событие
+21-03-2020 14:28 DEBUG получено событие
+21-03-2020 14:28 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+21-03-2020 15:04 DEBUG получено событие
+21-03-2020 15:04 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+21-03-2020 15:04 DEBUG получено событие
+21-03-2020 15:04 DEBUG получено событие
+21-03-2020 15:04 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+21-03-2020 15:04 DEBUG получено событие
+21-03-2020 15:04 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+21-03-2020 15:04 DEBUG получено событие
+21-03-2020 15:04 DEBUG получено событие
+21-03-2020 15:04 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+21-03-2020 15:04 DEBUG получено событие
+21-03-2020 15:04 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+21-03-2020 15:05 DEBUG получено событие
+21-03-2020 15:05 DEBUG получено событие
+21-03-2020 15:05 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+21-03-2020 15:05 DEBUG получено событие
+21-03-2020 15:05 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+21-03-2020 15:05 DEBUG получено событие
+21-03-2020 15:05 ERROR Ошибка в обработке события
+Traceback (most recent call last):
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 66, in run
+    self.on_event(event)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 83, in on_event
+    text_to_send = self.continue_scenario(user_id, text=text)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 118, in continue_scenario
+    handler = getattr(_handlers, step['handler'])
+AttributeError: module '_handlers' has no attribute 'handle_name'
+21-03-2020 15:10 DEBUG получено событие
+21-03-2020 15:10 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+21-03-2020 15:10 DEBUG получено событие
+21-03-2020 15:10 DEBUG получено событие
+21-03-2020 15:10 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+21-03-2020 15:10 DEBUG получено событие
+21-03-2020 15:10 DEBUG получено событие
+21-03-2020 15:10 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+21-03-2020 15:10 DEBUG получено событие
+21-03-2020 15:10 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+21-03-2020 15:10 DEBUG получено событие
+21-03-2020 15:10 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+21-03-2020 15:10 DEBUG получено событие
+21-03-2020 15:10 DEBUG получено событие
+21-03-2020 15:10 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+21-03-2020 15:11 DEBUG получено событие
+21-03-2020 15:11 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+21-03-2020 15:11 DEBUG получено событие
+21-03-2020 15:11 DEBUG получено событие
+21-03-2020 15:11 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+21-03-2020 15:13 DEBUG получено событие
+21-03-2020 15:13 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+21-03-2020 15:13 DEBUG получено событие
+21-03-2020 15:13 DEBUG получено событие
+21-03-2020 15:13 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+21-03-2020 15:13 DEBUG получено событие
+21-03-2020 15:13 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+21-03-2020 15:13 DEBUG получено событие
+21-03-2020 15:13 DEBUG получено событие
+21-03-2020 15:13 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+21-03-2020 15:13 DEBUG получено событие
+21-03-2020 15:13 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+21-03-2020 15:13 DEBUG получено событие
+21-03-2020 15:13 DEBUG получено событие
+21-03-2020 15:13 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+21-03-2020 15:17 DEBUG получено событие
+21-03-2020 15:17 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+21-03-2020 15:17 DEBUG получено событие
+21-03-2020 15:17 DEBUG получено событие
+21-03-2020 15:17 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+21-03-2020 15:17 DEBUG получено событие
+21-03-2020 15:17 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+21-03-2020 15:17 DEBUG получено событие
+21-03-2020 15:17 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+21-03-2020 15:17 DEBUG получено событие
+21-03-2020 15:17 DEBUG получено событие
+21-03-2020 15:17 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+21-03-2020 15:17 DEBUG получено событие
+21-03-2020 15:17 DEBUG получено событие
+21-03-2020 15:17 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+21-03-2020 15:18 DEBUG получено событие
+21-03-2020 15:18 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+21-03-2020 15:18 DEBUG получено событие
+21-03-2020 15:18 DEBUG получено событие
+21-03-2020 15:18 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+21-03-2020 15:18 DEBUG получено событие
+21-03-2020 15:18 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+21-03-2020 15:18 DEBUG получено событие
+21-03-2020 15:18 DEBUG получено событие
+21-03-2020 15:18 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+21-03-2020 15:18 DEBUG получено событие
+21-03-2020 15:18 DEBUG получено событие
+21-03-2020 15:18 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+21-03-2020 15:18 DEBUG получено событие
+21-03-2020 15:18 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+21-03-2020 15:18 DEBUG получено событие
+21-03-2020 15:18 DEBUG получено событие
+21-03-2020 15:18 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+21-03-2020 15:24 DEBUG получено событие
+21-03-2020 15:24 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+21-03-2020 15:24 DEBUG получено событие
+21-03-2020 15:24 DEBUG получено событие
+21-03-2020 15:24 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+21-03-2020 15:24 DEBUG получено событие
+21-03-2020 15:24 DEBUG получено событие
+21-03-2020 15:24 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+21-03-2020 15:24 DEBUG получено событие
+21-03-2020 15:24 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+21-03-2020 15:24 DEBUG получено событие
+21-03-2020 15:24 DEBUG получено событие
+21-03-2020 15:24 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+21-03-2020 19:33 DEBUG получено событие
+21-03-2020 19:33 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+21-03-2020 19:33 DEBUG получено событие
+21-03-2020 19:33 DEBUG получено событие
+21-03-2020 19:33 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+21-03-2020 19:33 DEBUG получено событие
+21-03-2020 19:33 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+21-03-2020 19:33 DEBUG получено событие
+21-03-2020 19:33 DEBUG получено событие
+21-03-2020 19:33 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+21-03-2020 19:33 DEBUG получено событие
+21-03-2020 19:33 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+21-03-2020 19:33 DEBUG получено событие
+21-03-2020 19:33 DEBUG получено событие
+21-03-2020 19:33 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+21-03-2020 19:33 DEBUG получено событие
+21-03-2020 19:33 DEBUG получено событие
+21-03-2020 19:33 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+21-03-2020 19:34 DEBUG получено событие
+21-03-2020 19:34 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+21-03-2020 19:34 DEBUG получено событие
+21-03-2020 19:34 DEBUG получено событие
+21-03-2020 19:34 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+21-03-2020 19:34 DEBUG получено событие
+21-03-2020 19:34 DEBUG получено событие
+21-03-2020 19:34 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+21-03-2020 20:01 DEBUG получено событие
+21-03-2020 20:01 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+21-03-2020 20:01 DEBUG получено событие
+21-03-2020 20:01 DEBUG получено событие
+21-03-2020 20:01 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+21-03-2020 20:01 DEBUG получено событие
+21-03-2020 20:01 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+21-03-2020 20:01 DEBUG получено событие
+21-03-2020 20:01 DEBUG получено событие
+21-03-2020 20:01 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+21-03-2020 20:01 DEBUG получено событие
+21-03-2020 20:01 DEBUG получено событие
+21-03-2020 20:01 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+21-03-2020 20:01 DEBUG получено событие
+21-03-2020 20:01 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+21-03-2020 20:01 DEBUG получено событие
+21-03-2020 20:01 DEBUG получено событие
+21-03-2020 20:01 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+21-03-2020 20:01 DEBUG получено событие
+21-03-2020 20:01 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+21-03-2020 20:01 DEBUG получено событие
+21-03-2020 20:01 DEBUG получено событие
+21-03-2020 20:01 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+21-03-2020 20:01 DEBUG получено событие
+21-03-2020 20:01 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+21-03-2020 20:01 DEBUG получено событие
+21-03-2020 20:01 DEBUG получено событие
+21-03-2020 20:01 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+21-03-2020 22:05 DEBUG получено событие
+21-03-2020 22:05 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+21-03-2020 22:05 DEBUG получено событие
+21-03-2020 22:05 DEBUG получено событие
+21-03-2020 22:05 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+21-03-2020 22:05 DEBUG получено событие
+21-03-2020 22:05 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+21-03-2020 22:05 DEBUG получено событие
+21-03-2020 22:05 DEBUG получено событие
+21-03-2020 22:05 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+21-03-2020 22:05 DEBUG получено событие
+21-03-2020 22:05 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+21-03-2020 22:05 DEBUG получено событие
+21-03-2020 22:05 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+21-03-2020 22:05 DEBUG получено событие
+21-03-2020 22:07 DEBUG получено событие
+21-03-2020 22:07 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+21-03-2020 22:07 DEBUG получено событие
+21-03-2020 22:07 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+21-03-2020 22:07 DEBUG получено событие
+06-05-2020 12:59 DEBUG получено событие
+06-05-2020 12:59 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+06-05-2020 12:59 DEBUG получено событие
+06-05-2020 12:59 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+06-05-2020 12:59 DEBUG получено событие
+06-05-2020 12:59 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+06-05-2020 12:59 DEBUG получено событие
+06-05-2020 12:59 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+06-05-2020 12:59 DEBUG получено событие
+06-05-2020 12:59 DEBUG получено событие
+06-05-2020 12:59 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+06-05-2020 12:59 DEBUG получено событие
+06-05-2020 12:59 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+06-05-2020 12:59 DEBUG получено событие
+06-05-2020 12:59 DEBUG получено событие
+06-05-2020 12:59 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+07-05-2020 10:35 DEBUG получено событие
+07-05-2020 10:35 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+07-05-2020 10:35 DEBUG получено событие
+07-05-2020 10:35 ERROR Ошибка в обработке события
+Traceback (most recent call last):
+  File "bot.py", line 59, in run
+    self.on_event(event)
+  File "<string>", line 2, in on_event
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/core.py", line 528, in new_func
+    result = func(*args, **kwargs)
+  File "bot.py", line 79, in on_event
+    state = UserState.get(user_id=user_id)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/core.py", line 4001, in get
+    try: return entity._find_one_(kwargs)  # can throw MultipleObjectsFoundError
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/core.py", line 4089, in _find_one_
+    throw(ERDiagramError, 'Mapping is not generated for entity %r' % entity.__name__)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/utils/utils.py", line 106, in throw
+    raise exc
+pony.orm.core.ERDiagramError: Mapping is not generated for entity 'UserState'
+07-05-2020 10:42 DEBUG получено событие
+07-05-2020 10:42 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+07-05-2020 10:42 DEBUG получено событие
+07-05-2020 10:42 ERROR Ошибка в обработке события
+Traceback (most recent call last):
+  File "bot.py", line 59, in run
+    try:
+  File "<string>", line 2, in on_event
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/core.py", line 528, in new_func
+    result = func(*args, **kwargs)
+  File "bot.py", line 79, in on_event
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/core.py", line 4001, in get
+    try: return entity._find_one_(kwargs)  # can throw MultipleObjectsFoundError
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/core.py", line 4089, in _find_one_
+    throw(ERDiagramError, 'Mapping is not generated for entity %r' % entity.__name__)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/utils/utils.py", line 106, in throw
+    raise exc
+pony.orm.core.ERDiagramError: Mapping is not generated for entity 'UserState'
+07-05-2020 10:45 DEBUG получено событие
+07-05-2020 10:45 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+07-05-2020 10:45 DEBUG получено событие
+07-05-2020 10:45 ERROR Ошибка в обработке события
+Traceback (most recent call last):
+  File "bot.py", line 60, in run
+    self.on_event(event)
+  File "<string>", line 2, in on_event
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/core.py", line 528, in new_func
+    result = func(*args, **kwargs)
+  File "bot.py", line 80, in on_event
+    state = UserState.get(user_id=user_id)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/core.py", line 4001, in get
+    try: return entity._find_one_(kwargs)  # can throw MultipleObjectsFoundError
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/core.py", line 4095, in _find_one_
+    avdict[attr] = attr.validate(val, None, entity, from_db=False)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/core.py", line 2534, in validate
+    val = Attribute.validate(attr, val, obj, entity, from_db)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/core.py", line 2205, in validate
+    val = converter.validate(val, obj)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/dbapiprovider.py", line 464, in validate
+    'Value type for attribute %s must be %s. Got: %r' % (converter.attr, unicode.__name__, type(val)))
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/utils/utils.py", line 106, in throw
+    raise exc
+TypeError: Value type for attribute UserState.user_id must be str. Got: <class 'int'>
+07-05-2020 10:59 DEBUG получено событие
+07-05-2020 10:59 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+07-05-2020 10:59 DEBUG получено событие
+07-05-2020 10:59 ERROR Ошибка в обработке события
+Traceback (most recent call last):
+  File "bot.py", line 60, in run
+    self.on_event(event)
+  File "<string>", line 2, in on_event
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/core.py", line 528, in new_func
+    result = func(*args, **kwargs)
+  File "bot.py", line 80, in on_event
+    state = UserState.get(user_id=user_id)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/core.py", line 4001, in get
+    try: return entity._find_one_(kwargs)  # can throw MultipleObjectsFoundError
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/core.py", line 4095, in _find_one_
+    avdict[attr] = attr.validate(val, None, entity, from_db=False)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/core.py", line 2534, in validate
+    val = Attribute.validate(attr, val, obj, entity, from_db)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/core.py", line 2205, in validate
+    val = converter.validate(val, obj)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/dbapiprovider.py", line 464, in validate
+    'Value type for attribute %s must be %s. Got: %r' % (converter.attr, unicode.__name__, type(val)))
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/utils/utils.py", line 106, in throw
+    raise exc
+TypeError: Value type for attribute UserState.user_id must be str. Got: <class 'int'>
+07-05-2020 11:01 DEBUG получено событие
+07-05-2020 11:01 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+07-05-2020 11:01 DEBUG получено событие
+07-05-2020 11:01 ERROR Ошибка в обработке события
+Traceback (most recent call last):
+  File "bot.py", line 60, in run
+    self.on_event(event)
+  File "<string>", line 2, in on_event
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/core.py", line 528, in new_func
+    result = func(*args, **kwargs)
+  File "bot.py", line 80, in on_event
+    state = UserState.get(user_id=user_id)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/core.py", line 4001, in get
+    try: return entity._find_one_(kwargs)  # can throw MultipleObjectsFoundError
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/core.py", line 4095, in _find_one_
+    avdict[attr] = attr.validate(val, None, entity, from_db=False)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/core.py", line 2534, in validate
+    val = Attribute.validate(attr, val, obj, entity, from_db)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/core.py", line 2205, in validate
+    val = converter.validate(val, obj)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/dbapiprovider.py", line 464, in validate
+    'Value type for attribute %s must be %s. Got: %r' % (converter.attr, unicode.__name__, type(val)))
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/utils/utils.py", line 106, in throw
+    raise exc
+TypeError: Value type for attribute UserState.user_id must be str. Got: <class 'int'>
+07-05-2020 11:02 DEBUG получено событие
+07-05-2020 11:02 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+07-05-2020 11:02 DEBUG получено событие
+07-05-2020 11:02 ERROR Ошибка в обработке события
+Traceback (most recent call last):
+  File "bot.py", line 60, in run
+    self.on_event(event)
+  File "<string>", line 2, in on_event
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/core.py", line 528, in new_func
+    result = func(*args, **kwargs)
+  File "bot.py", line 80, in on_event
+    state = UserState.get(user_id=user_id)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/core.py", line 4001, in get
+    try: return entity._find_one_(kwargs)  # can throw MultipleObjectsFoundError
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/core.py", line 4095, in _find_one_
+    avdict[attr] = attr.validate(val, None, entity, from_db=False)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/core.py", line 2534, in validate
+    val = Attribute.validate(attr, val, obj, entity, from_db)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/core.py", line 2205, in validate
+    val = converter.validate(val, obj)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/dbapiprovider.py", line 464, in validate
+    'Value type for attribute %s must be %s. Got: %r' % (converter.attr, unicode.__name__, type(val)))
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/utils/utils.py", line 106, in throw
+    raise exc
+TypeError: Value type for attribute UserState.user_id must be str. Got: <class 'int'>
+07-05-2020 11:03 DEBUG получено событие
+07-05-2020 11:03 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+07-05-2020 11:03 DEBUG получено событие
+07-05-2020 11:03 ERROR Ошибка в обработке события
+Traceback (most recent call last):
+  File "bot.py", line 60, in run
+    self.on_event(event)
+  File "<string>", line 2, in on_event
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/core.py", line 528, in new_func
+    result = func(*args, **kwargs)
+  File "bot.py", line 80, in on_event
+    state = UserState.get(user_id=user_id)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/core.py", line 4001, in get
+    try: return entity._find_one_(kwargs)  # can throw MultipleObjectsFoundError
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/core.py", line 4095, in _find_one_
+    avdict[attr] = attr.validate(val, None, entity, from_db=False)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/core.py", line 2534, in validate
+    val = Attribute.validate(attr, val, obj, entity, from_db)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/core.py", line 2205, in validate
+    val = converter.validate(val, obj)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/dbapiprovider.py", line 464, in validate
+    'Value type for attribute %s must be %s. Got: %r' % (converter.attr, unicode.__name__, type(val)))
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/utils/utils.py", line 106, in throw
+    raise exc
+TypeError: Value type for attribute UserState.user_id must be str. Got: <class 'int'>
+07-05-2020 11:05 DEBUG получено событие
+07-05-2020 11:05 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+07-05-2020 11:05 DEBUG получено событие
+07-05-2020 11:05 DEBUG получено событие
+07-05-2020 11:05 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+07-05-2020 11:05 DEBUG получено событие
+07-05-2020 11:05 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+07-05-2020 11:05 DEBUG получено событие
+07-05-2020 11:05 ERROR Ошибка в обработке события
+Traceback (most recent call last):
+  File "bot.py", line 60, in run
+    self.on_event(event)
+  File "<string>", line 2, in on_event
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/core.py", line 528, in new_func
+    result = func(*args, **kwargs)
+  File "bot.py", line 93, in on_event
+    text_to_send = self.start_scenario(intent['scenario'], user_id)  # если у интента нет ответа -
+TypeError: start_scenario() missing 1 required positional argument: 'state'
+07-05-2020 11:06 DEBUG получено событие
+07-05-2020 11:06 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+07-05-2020 11:06 DEBUG получено событие
+07-05-2020 11:06 ERROR Ошибка в обработке события
+Traceback (most recent call last):
+  File "bot.py", line 60, in run
+    self.on_event(event)
+  File "<string>", line 2, in on_event
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/core.py", line 528, in new_func
+    result = func(*args, **kwargs)
+  File "bot.py", line 93, in on_event
+    text_to_send = self.start_scenario(intent['scenario'], user_id)  # если у интента нет ответа -
+TypeError: start_scenario() missing 1 required positional argument: 'state'
+07-05-2020 11:07 DEBUG получено событие
+07-05-2020 11:07 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+07-05-2020 11:07 DEBUG получено событие
+07-05-2020 11:07 ERROR Ошибка в обработке события
+Traceback (most recent call last):
+  File "bot.py", line 60, in run
+    self.on_event(event)
+  File "<string>", line 2, in on_event
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/core.py", line 528, in new_func
+    result = func(*args, **kwargs)
+  File "bot.py", line 93, in on_event
+    text_to_send = self.start_scenario(intent['scenario'], user_id, state)  # если у интента нет ответа -
+  File "bot.py", line 110, in start_scenario
+    UserState(user_id=user_id, scenario_name=scenario_name, step_name=first_step, context={})  # создаем состояние
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/core.py", line 4695, in __init__
+    avdict[attr] = attr.validate(val, obj, from_db=False)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/core.py", line 2534, in validate
+    val = Attribute.validate(attr, val, obj, entity, from_db)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/core.py", line 2205, in validate
+    val = converter.validate(val, obj)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/dbapiprovider.py", line 464, in validate
+    'Value type for attribute %s must be %s. Got: %r' % (converter.attr, unicode.__name__, type(val)))
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/utils/utils.py", line 106, in throw
+    raise exc
+TypeError: Value type for attribute UserState.user_id must be str. Got: <class 'int'>
+07-05-2020 11:09 DEBUG получено событие
+07-05-2020 11:09 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+07-05-2020 11:09 DEBUG получено событие
+07-05-2020 11:09 ERROR Ошибка в обработке события
+Traceback (most recent call last):
+  File "bot.py", line 60, in run
+    self.on_event(event)
+  File "<string>", line 2, in on_event
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/core.py", line 528, in new_func
+    result = func(*args, **kwargs)
+  File "bot.py", line 92, in on_event
+    text_to_send = self.start_scenario(intent['scenario'], user_id, state)  # если у интента нет ответа -
+  File "bot.py", line 109, in start_scenario
+    UserState(user_id=user_id, scenario_name=scenario_name, step_name=first_step, context={})  # создаем состояние
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/core.py", line 4695, in __init__
+    avdict[attr] = attr.validate(val, obj, from_db=False)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/core.py", line 2534, in validate
+    val = Attribute.validate(attr, val, obj, entity, from_db)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/core.py", line 2205, in validate
+    val = converter.validate(val, obj)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/dbapiprovider.py", line 464, in validate
+    'Value type for attribute %s must be %s. Got: %r' % (converter.attr, unicode.__name__, type(val)))
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/utils/utils.py", line 106, in throw
+    raise exc
+TypeError: Value type for attribute UserState.user_id must be str. Got: <class 'int'>
+07-05-2020 11:09 DEBUG получено событие
+07-05-2020 11:09 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+07-05-2020 11:09 DEBUG получено событие
+07-05-2020 11:09 DEBUG получено событие
+07-05-2020 11:09 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+07-05-2020 11:09 DEBUG получено событие
+07-05-2020 11:09 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+07-05-2020 11:09 DEBUG получено событие
+07-05-2020 11:09 ERROR Ошибка в обработке события
+Traceback (most recent call last):
+  File "bot.py", line 60, in run
+    self.on_event(event)
+  File "<string>", line 2, in on_event
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/core.py", line 528, in new_func
+    result = func(*args, **kwargs)
+  File "bot.py", line 92, in on_event
+    text_to_send = self.start_scenario(intent['scenario'], user_id, state)  # если у интента нет ответа -
+  File "bot.py", line 109, in start_scenario
+    UserState(user_id=user_id, scenario_name=scenario_name, step_name=first_step, context={})  # создаем состояние
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/core.py", line 4695, in __init__
+    avdict[attr] = attr.validate(val, obj, from_db=False)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/core.py", line 2534, in validate
+    val = Attribute.validate(attr, val, obj, entity, from_db)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/core.py", line 2205, in validate
+    val = converter.validate(val, obj)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/dbapiprovider.py", line 464, in validate
+    'Value type for attribute %s must be %s. Got: %r' % (converter.attr, unicode.__name__, type(val)))
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/utils/utils.py", line 106, in throw
+    raise exc
+TypeError: Value type for attribute UserState.user_id must be str. Got: <class 'int'>
+07-05-2020 11:10 DEBUG получено событие
+07-05-2020 11:10 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+07-05-2020 11:10 DEBUG получено событие
+07-05-2020 11:10 DEBUG получено событие
+07-05-2020 11:10 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+07-05-2020 11:10 DEBUG получено событие
+07-05-2020 11:10 DEBUG получено событие
+07-05-2020 11:10 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+07-05-2020 11:10 DEBUG получено событие
+07-05-2020 11:10 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+07-05-2020 11:10 DEBUG получено событие
+07-05-2020 11:10 DEBUG получено событие
+07-05-2020 11:10 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+07-05-2020 11:10 DEBUG получено событие
+07-05-2020 11:10 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+07-05-2020 11:10 DEBUG получено событие
+07-05-2020 11:10 DEBUG получено событие
+07-05-2020 11:10 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+07-05-2020 11:10 DEBUG получено событие
+07-05-2020 11:10 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+07-05-2020 11:10 DEBUG получено событие
+07-05-2020 11:10 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+07-05-2020 11:10 DEBUG получено событие
+07-05-2020 11:10 DEBUG получено событие
+07-05-2020 11:10 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+07-05-2020 11:11 DEBUG получено событие
+07-05-2020 11:11 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+07-05-2020 11:11 DEBUG получено событие
+07-05-2020 11:11 DEBUG получено событие
+07-05-2020 11:11 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+07-05-2020 11:13 DEBUG получено событие
+07-05-2020 11:13 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+07-05-2020 11:13 DEBUG получено событие
+07-05-2020 11:13 DEBUG получено событие
+07-05-2020 11:13 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+07-05-2020 11:13 DEBUG получено событие
+07-05-2020 11:13 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+07-05-2020 11:13 DEBUG получено событие
+07-05-2020 11:13 DEBUG получено событие
+07-05-2020 11:13 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+07-05-2020 11:22 DEBUG получено событие
+07-05-2020 11:22 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+07-05-2020 11:22 DEBUG получено событие
+07-05-2020 11:22 DEBUG получено событие
+07-05-2020 11:22 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+07-05-2020 11:29 DEBUG получено событие
+07-05-2020 11:29 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+07-05-2020 11:29 DEBUG получено событие
+07-05-2020 11:29 DEBUG получено событие
+07-05-2020 11:29 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+07-05-2020 11:40 DEBUG получено событие
+07-05-2020 11:40 DEBUG получено событие
+07-05-2020 11:40 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+07-05-2020 11:40 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+07-05-2020 11:40 DEBUG получено событие
+07-05-2020 11:40 DEBUG получено событие
+07-05-2020 11:40 ERROR Ошибка в обработке события
+Traceback (most recent call last):
+  File "bot.py", line 60, in run
+    self.on_event(event)
+  File "<string>", line 2, in on_event
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/core.py", line 547, in new_func
+    reraise(exc_type, exc, tb)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/utils/utils.py", line 95, in reraise
+    try: raise exc.with_traceback(tb)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/core.py", line 529, in new_func
+    commit()
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/core.py", line 381, in commit
+    rollback_and_reraise(sys.exc_info())
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/core.py", line 370, in rollback_and_reraise
+    reraise(*exc_info)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/utils/utils.py", line 95, in reraise
+    try: raise exc.with_traceback(tb)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/core.py", line 379, in commit
+    cache.flush()
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/core.py", line 1896, in flush
+    if obj is not None: obj._save_()
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/core.py", line 5422, in _save_
+    elif status == 'marked_to_delete': obj._save_deleted_()
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/core.py", line 5363, in _save_deleted_
+    throw(OptimisticCheckError, obj.find_updated_attributes())
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/utils/utils.py", line 106, in throw
+    raise exc
+pony.orm.core.OptimisticCheckError: Object UserState[2] was deleted outside of current transaction
+07-05-2020 11:40 DEBUG получено событие
+07-05-2020 11:40 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+07-05-2020 11:40 DEBUG получено событие
+07-05-2020 11:40 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+07-05-2020 11:40 DEBUG получено событие
+07-05-2020 11:40 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+07-05-2020 11:40 DEBUG получено событие
+07-05-2020 11:40 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+07-05-2020 14:52 DEBUG получено событие
+07-05-2020 14:52 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+07-05-2020 14:53 DEBUG получено событие
+07-05-2020 14:53 DEBUG User gets {'name': 'Дата проведения', 'tokens': ('когда', 'сколько', 'дата', 'дату'), 'scenario': None, 'answer': 'Конференция проводится 9 мая, регистрация начнется в 10 утра'}
+07-05-2020 14:53 DEBUG User gets {'name': 'Место проведения', 'tokens': ('где', 'место', 'локация', 'адрес', 'метро'), 'scenario': None, 'answer': 'Конференция пройдет на Красной Площади, около Ленина'}
+07-05-2020 14:53 DEBUG User gets {'name': 'Регистрация', 'tokens': ('регист', 'добави'), 'scenario': 'registration', 'answer': None}
+07-05-2020 14:53 DEBUG получено событие
+07-05-2020 14:53 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+07-05-2020 14:53 DEBUG получено событие
+07-05-2020 14:53 DEBUG User gets {'name': 'Дата проведения', 'tokens': ('когда', 'сколько', 'дата', 'дату'), 'scenario': None, 'answer': 'Конференция проводится 9 мая, регистрация начнется в 10 утра'}
+07-05-2020 14:53 DEBUG User gets {'name': 'Место проведения', 'tokens': ('где', 'место', 'локация', 'адрес', 'метро'), 'scenario': None, 'answer': 'Конференция пройдет на Красной Площади, около Ленина'}
+07-05-2020 14:53 DEBUG User gets {'name': 'Регистрация', 'tokens': ('регист', 'добави'), 'scenario': 'registration', 'answer': None}
+07-05-2020 14:53 DEBUG получено событие
+07-05-2020 14:53 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+07-05-2020 14:53 DEBUG получено событие
+07-05-2020 14:53 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+07-05-2020 14:53 DEBUG получено событие
+07-05-2020 14:53 DEBUG получено событие
+07-05-2020 14:53 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+07-05-2020 14:53 DEBUG получено событие
+07-05-2020 14:53 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+07-05-2020 14:53 DEBUG получено событие
+07-05-2020 14:53 DEBUG получено событие
+07-05-2020 14:53 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+07-05-2020 15:31 DEBUG получено событие
+07-05-2020 15:31 DEBUG получено событие
+07-05-2020 15:31 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+07-05-2020 15:31 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+07-05-2020 15:31 DEBUG получено событие
+07-05-2020 15:31 DEBUG получено событие
+07-05-2020 15:31 DEBUG User gets {'name': 'Дата проведения', 'tokens': ('когда', 'сколько', 'дата', 'дату'), 'scenario': None, 'answer': 'Конференция проводится 9 мая, регистрация начнется в 10 утра'}
+07-05-2020 15:31 DEBUG User gets {'name': 'Место проведения', 'tokens': ('где', 'место', 'локация', 'адрес', 'метро'), 'scenario': None, 'answer': 'Конференция пройдет на Красной Площади, около Ленина'}
+07-05-2020 15:31 DEBUG User gets {'name': 'Регистрация', 'tokens': ('регист', 'добави'), 'scenario': 'registration', 'answer': None}
+07-05-2020 15:31 DEBUG User gets {'name': 'Дата проведения', 'tokens': ('когда', 'сколько', 'дата', 'дату'), 'scenario': None, 'answer': 'Конференция проводится 9 мая, регистрация начнется в 10 утра'}
+07-05-2020 15:31 DEBUG User gets {'name': 'Место проведения', 'tokens': ('где', 'место', 'локация', 'адрес', 'метро'), 'scenario': None, 'answer': 'Конференция пройдет на Красной Площади, около Ленина'}
+07-05-2020 15:31 DEBUG User gets {'name': 'Регистрация', 'tokens': ('регист', 'добави'), 'scenario': 'registration', 'answer': None}
+07-05-2020 15:31 DEBUG получено событие
+07-05-2020 15:31 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+07-05-2020 15:31 DEBUG получено событие
+07-05-2020 15:31 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+07-05-2020 15:31 DEBUG получено событие
+07-05-2020 15:31 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+07-05-2020 15:31 DEBUG получено событие
+07-05-2020 15:31 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+07-05-2020 20:37 DEBUG получено событие
+07-05-2020 20:37 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+07-05-2020 20:37 DEBUG получено событие
+07-05-2020 20:37 ERROR Ошибка в обработке события
+Traceback (most recent call last):
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 59, in run
+    self.on_event(event)
+  File "<string>", line 2, in on_event
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/core.py", line 528, in new_func
+    result = func(*args, **kwargs)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 80, in on_event
+    user_id = event.object.message['user_id']
+KeyError: 'user_id'
+07-05-2020 20:38 DEBUG получено событие
+07-05-2020 20:38 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+07-05-2020 20:38 DEBUG получено событие
+07-05-2020 20:38 DEBUG User gets {'name': 'Дата проведения', 'tokens': ('когда', 'сколько', 'дата', 'дату'), 'scenario': None, 'answer': 'Конференция проводится 9 мая, регистрация начнется в 10 утра'}
+07-05-2020 20:38 DEBUG User gets {'name': 'Место проведения', 'tokens': ('где', 'место', 'локация', 'адрес', 'метро'), 'scenario': None, 'answer': 'Конференция пройдет на Красной Площади, около Ленина'}
+07-05-2020 20:38 DEBUG User gets {'name': 'Регистрация', 'tokens': ('регист', 'добави'), 'scenario': 'registration', 'answer': None}
+07-05-2020 20:38 DEBUG получено событие
+07-05-2020 20:38 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+07-05-2020 20:38 DEBUG получено событие
+07-05-2020 20:38 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+07-05-2020 20:38 DEBUG получено событие
+07-05-2020 20:38 DEBUG User gets {'name': 'Дата проведения', 'tokens': ('когда', 'сколько', 'дата', 'дату'), 'scenario': None, 'answer': 'Конференция проводится 9 мая, регистрация начнется в 10 утра'}
+07-05-2020 20:38 DEBUG User gets {'name': 'Место проведения', 'tokens': ('где', 'место', 'локация', 'адрес', 'метро'), 'scenario': None, 'answer': 'Конференция пройдет на Красной Площади, около Ленина'}
+07-05-2020 20:38 DEBUG User gets {'name': 'Регистрация', 'tokens': ('регист', 'добави'), 'scenario': 'registration', 'answer': None}
+07-05-2020 20:38 ERROR Ошибка в обработке события
+Traceback (most recent call last):
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 59, in run
+    self.on_event(event)
+  File "<string>", line 2, in on_event
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/core.py", line 528, in new_func
+    result = func(*args, **kwargs)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 93, in on_event
+    text_to_send = self.start_scenario(intent['scenario'], user_id)  # если у интента нет ответа -
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 112, in start_scenario
+    self.send_to_text(peer_id, text_to_send)
+NameError: name 'peer_id' is not defined
+07-05-2020 20:38 DEBUG получено событие
+07-05-2020 20:38 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+07-05-2020 20:38 DEBUG получено событие
+07-05-2020 20:38 DEBUG User gets {'name': 'Дата проведения', 'tokens': ('когда', 'сколько', 'дата', 'дату'), 'scenario': None, 'answer': 'Конференция проводится 9 мая, регистрация начнется в 10 утра'}
+07-05-2020 20:38 DEBUG User gets {'name': 'Место проведения', 'tokens': ('где', 'место', 'локация', 'адрес', 'метро'), 'scenario': None, 'answer': 'Конференция пройдет на Красной Площади, около Ленина'}
+07-05-2020 20:38 DEBUG User gets {'name': 'Регистрация', 'tokens': ('регист', 'добави'), 'scenario': 'registration', 'answer': None}
+07-05-2020 20:38 DEBUG получено событие
+07-05-2020 20:38 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+07-05-2020 20:38 DEBUG получено событие
+07-05-2020 20:38 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+07-05-2020 20:38 DEBUG получено событие
+07-05-2020 20:38 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+07-05-2020 20:38 DEBUG получено событие
+07-05-2020 20:39 DEBUG получено событие
+07-05-2020 20:39 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+07-05-2020 20:39 DEBUG получено событие
+07-05-2020 20:39 DEBUG получено событие
+07-05-2020 20:39 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+07-05-2020 20:39 DEBUG получено событие
+07-05-2020 20:46 DEBUG получено событие
+07-05-2020 20:46 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+07-05-2020 20:46 DEBUG получено событие
+07-05-2020 20:46 DEBUG получено событие
+07-05-2020 20:46 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+07-05-2020 20:46 DEBUG получено событие
+07-05-2020 20:46 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+07-05-2020 20:46 DEBUG получено событие
+07-05-2020 20:46 DEBUG получено событие
+07-05-2020 20:46 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+07-05-2020 20:46 DEBUG получено событие
+07-05-2020 20:46 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+07-05-2020 20:46 DEBUG получено событие
+07-05-2020 20:46 DEBUG получено событие
+07-05-2020 20:46 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+07-05-2020 20:46 DEBUG получено событие
+07-05-2020 20:46 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+07-05-2020 20:46 DEBUG получено событие
+07-05-2020 20:46 DEBUG User gets {'name': 'Дата проведения', 'tokens': ('когда', 'сколько', 'дата', 'дату'), 'scenario': None, 'answer': 'Конференция проводится 9 мая, регистрация начнется в 10 утра'}
+07-05-2020 20:46 DEBUG User gets {'name': 'Место проведения', 'tokens': ('где', 'место', 'локация', 'адрес', 'метро'), 'scenario': None, 'answer': 'Конференция пройдет на Красной Площади, около Ленина'}
+07-05-2020 20:46 DEBUG User gets {'name': 'Регистрация', 'tokens': ('регист', 'добави'), 'scenario': 'registration', 'answer': None}
+07-05-2020 20:46 DEBUG получено событие
+07-05-2020 20:46 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+07-05-2020 20:46 DEBUG получено событие
+07-05-2020 20:46 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+07-05-2020 20:47 DEBUG получено событие
+07-05-2020 20:47 DEBUG User gets {'name': 'Дата проведения', 'tokens': ('когда', 'сколько', 'дата', 'дату'), 'scenario': None, 'answer': 'Конференция проводится 9 мая, регистрация начнется в 10 утра'}
+07-05-2020 20:47 DEBUG User gets {'name': 'Место проведения', 'tokens': ('где', 'место', 'локация', 'адрес', 'метро'), 'scenario': None, 'answer': 'Конференция пройдет на Красной Площади, около Ленина'}
+07-05-2020 20:47 DEBUG User gets {'name': 'Регистрация', 'tokens': ('регист', 'добави'), 'scenario': 'registration', 'answer': None}
+07-05-2020 20:47 DEBUG получено событие
+07-05-2020 20:47 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+07-05-2020 20:47 DEBUG получено событие
+07-05-2020 20:47 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+07-05-2020 20:49 DEBUG получено событие
+07-05-2020 20:49 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+07-05-2020 20:49 DEBUG получено событие
+07-05-2020 20:49 DEBUG получено событие
+07-05-2020 20:49 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+07-05-2020 20:49 DEBUG получено событие
+07-05-2020 20:49 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+07-05-2020 20:49 DEBUG получено событие
+07-05-2020 20:49 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+07-05-2020 20:49 DEBUG получено событие
+07-05-2020 20:49 DEBUG получено событие
+07-05-2020 20:49 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+07-05-2020 20:49 DEBUG получено событие
+07-05-2020 20:49 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+07-05-2020 20:49 DEBUG получено событие
+07-05-2020 20:49 DEBUG User gets {'name': 'Дата проведения', 'tokens': ('когда', 'сколько', 'дата', 'дату'), 'scenario': None, 'answer': 'Конференция проводится 9 мая, регистрация начнется в 10 утра'}
+07-05-2020 20:49 DEBUG User gets {'name': 'Место проведения', 'tokens': ('где', 'место', 'локация', 'адрес', 'метро'), 'scenario': None, 'answer': 'Конференция пройдет на Красной Площади, около Ленина'}
+07-05-2020 20:49 DEBUG User gets {'name': 'Регистрация', 'tokens': ('регист', 'добави'), 'scenario': 'registration', 'answer': None}
+07-05-2020 20:49 DEBUG получено событие
+07-05-2020 20:49 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+07-05-2020 20:49 DEBUG получено событие
+07-05-2020 20:49 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+07-05-2020 20:49 DEBUG получено событие
+07-05-2020 20:49 DEBUG User gets {'name': 'Дата проведения', 'tokens': ('когда', 'сколько', 'дата', 'дату'), 'scenario': None, 'answer': 'Конференция проводится 9 мая, регистрация начнется в 10 утра'}
+07-05-2020 20:49 DEBUG User gets {'name': 'Место проведения', 'tokens': ('где', 'место', 'локация', 'адрес', 'метро'), 'scenario': None, 'answer': 'Конференция пройдет на Красной Площади, около Ленина'}
+07-05-2020 20:49 DEBUG User gets {'name': 'Регистрация', 'tokens': ('регист', 'добави'), 'scenario': 'registration', 'answer': None}
+07-05-2020 20:49 DEBUG получено событие
+07-05-2020 20:49 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+07-05-2020 20:49 DEBUG получено событие
+07-05-2020 20:49 DEBUG получено событие
+07-05-2020 20:49 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+07-05-2020 20:49 DEBUG получено событие
+07-05-2020 20:49 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+07-05-2020 20:49 DEBUG получено событие
+07-05-2020 20:49 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+07-05-2020 20:49 DEBUG получено событие
+07-05-2020 20:49 DEBUG получено событие
+07-05-2020 20:49 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 07:45 DEBUG получено событие
+08-05-2020 07:45 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 07:45 DEBUG получено событие
+08-05-2020 07:45 DEBUG User gets {'name': 'Дата проведения', 'tokens': ('когда', 'сколько', 'дата', 'дату'), 'scenario': None, 'answer': 'Конференция проводится 9 мая, регистрация начнется в 10 утра'}
+08-05-2020 07:45 DEBUG User gets {'name': 'Место проведения', 'tokens': ('где', 'место', 'локация', 'адрес', 'метро'), 'scenario': None, 'answer': 'Конференция пройдет на Красной Площади, около Ленина'}
+08-05-2020 07:45 DEBUG User gets {'name': 'Регистрация', 'tokens': ('регист', 'добави'), 'scenario': 'registration', 'answer': None}
+08-05-2020 07:45 DEBUG получено событие
+08-05-2020 07:45 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 07:46 DEBUG получено событие
+08-05-2020 07:46 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 07:46 DEBUG получено событие
+08-05-2020 07:46 DEBUG User gets {'name': 'Дата проведения', 'tokens': ('когда', 'сколько', 'дата', 'дату'), 'scenario': None, 'answer': 'Конференция проводится 9 мая, регистрация начнется в 10 утра'}
+08-05-2020 07:46 DEBUG User gets {'name': 'Место проведения', 'tokens': ('где', 'место', 'локация', 'адрес', 'метро'), 'scenario': None, 'answer': 'Конференция пройдет на Красной Площади, около Ленина'}
+08-05-2020 07:46 DEBUG User gets {'name': 'Регистрация', 'tokens': ('регист', 'добави'), 'scenario': 'registration', 'answer': None}
+08-05-2020 07:46 DEBUG получено событие
+08-05-2020 07:46 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 07:46 DEBUG получено событие
+08-05-2020 07:46 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 07:46 DEBUG получено событие
+08-05-2020 07:46 DEBUG получено событие
+08-05-2020 07:46 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 07:46 DEBUG получено событие
+08-05-2020 07:46 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 07:46 DEBUG получено событие
+08-05-2020 07:46 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 07:46 DEBUG получено событие
+08-05-2020 07:46 DEBUG получено событие
+08-05-2020 07:46 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 09:20 DEBUG получено событие
+08-05-2020 09:20 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 09:20 DEBUG получено событие
+08-05-2020 09:20 DEBUG User gets {'name': 'Дата проведения', 'tokens': ('когда', 'сколько', 'дата', 'дату'), 'scenario': None, 'answer': 'Конференция проводится 9 мая, регистрация начнется в 10 утра'}
+08-05-2020 09:20 DEBUG User gets {'name': 'Место проведения', 'tokens': ('где', 'место', 'локация', 'адрес', 'метро'), 'scenario': None, 'answer': 'Конференция пройдет на Красной Площади, около Ленина'}
+08-05-2020 09:20 DEBUG User gets {'name': 'Регистрация', 'tokens': ('регист', 'добави'), 'scenario': 'registration', 'answer': None}
+08-05-2020 09:20 DEBUG получено событие
+08-05-2020 09:20 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 09:20 DEBUG получено событие
+08-05-2020 09:20 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 09:20 DEBUG получено событие
+08-05-2020 09:20 DEBUG User gets {'name': 'Дата проведения', 'tokens': ('когда', 'сколько', 'дата', 'дату'), 'scenario': None, 'answer': 'Конференция проводится 9 мая, регистрация начнется в 10 утра'}
+08-05-2020 09:31 DEBUG получено событие
+08-05-2020 09:31 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 09:31 DEBUG получено событие
+08-05-2020 09:31 DEBUG User gets {'name': 'Дата проведения', 'tokens': ('когда', 'сколько', 'дата', 'дату'), 'scenario': None, 'answer': 'Конференция проводится 9 мая, регистрация начнется в 10 утра'}
+08-05-2020 09:31 DEBUG User gets {'name': 'Место проведения', 'tokens': ('где', 'место', 'локация', 'адрес', 'метро'), 'scenario': None, 'answer': 'Конференция пройдет на Красной Площади, около Ленина'}
+08-05-2020 09:31 DEBUG User gets {'name': 'Регистрация', 'tokens': ('регист', 'добави'), 'scenario': 'registration', 'answer': None}
+08-05-2020 09:31 DEBUG получено событие
+08-05-2020 09:31 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 09:31 DEBUG получено событие
+08-05-2020 09:31 DEBUG получено событие
+08-05-2020 09:31 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 09:31 DEBUG получено событие
+08-05-2020 09:31 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 09:31 DEBUG получено событие
+08-05-2020 09:31 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 09:31 DEBUG получено событие
+08-05-2020 09:31 DEBUG получено событие
+08-05-2020 09:31 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 09:31 DEBUG получено событие
+08-05-2020 09:31 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 09:31 DEBUG получено событие
+08-05-2020 09:31 DEBUG User gets {'name': 'Дата проведения', 'tokens': ('когда', 'сколько', 'дата', 'дату'), 'scenario': None, 'answer': 'Конференция проводится 9 мая, регистрация начнется в 10 утра'}
+08-05-2020 09:31 ERROR Ошибка в обработке события
+Traceback (most recent call last):
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 59, in run
+    self.on_event(event)
+  File "<string>", line 2, in on_event
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/core.py", line 528, in new_func
+    result = func(*args, **kwargs)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 91, in on_event
+    self.start_scenario(scenario_name=intent['scenario'], user_id=user_id, text=intent['answer'])
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 121, in start_scenario
+    scenario = settings.SCENARIOS[scenario_name]  # 'registration'
+KeyError: None
+08-05-2020 10:17 DEBUG получено событие
+08-05-2020 10:17 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 10:18 DEBUG получено событие
+08-05-2020 10:18 DEBUG User gets {'name': 'Дата проведения', 'tokens': ('когда', 'сколько', 'дата', 'дату'), 'scenario': None, 'answer': 'Конференция проводится 9 мая, регистрация начнется в 10 утра'}
+08-05-2020 10:18 DEBUG User gets {'name': 'Место проведения', 'tokens': ('где', 'место', 'локация', 'адрес', 'метро'), 'scenario': None, 'answer': 'Конференция пройдет на Красной Площади, около Ленина'}
+08-05-2020 10:18 DEBUG User gets {'name': 'Регистрация', 'tokens': ('регист', 'добави'), 'scenario': 'registration', 'answer': None}
+08-05-2020 10:18 DEBUG получено событие
+08-05-2020 10:18 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 10:18 DEBUG получено событие
+08-05-2020 10:19 DEBUG получено событие
+08-05-2020 10:19 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 10:19 DEBUG получено событие
+08-05-2020 10:19 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 10:19 DEBUG получено событие
+08-05-2020 10:19 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 10:19 DEBUG получено событие
+08-05-2020 10:19 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 10:19 DEBUG получено событие
+08-05-2020 10:19 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 10:19 DEBUG получено событие
+08-05-2020 10:19 DEBUG получено событие
+08-05-2020 10:19 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 10:19 DEBUG получено событие
+08-05-2020 10:19 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 10:19 DEBUG получено событие
+08-05-2020 10:19 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 10:19 DEBUG получено событие
+08-05-2020 10:19 DEBUG User gets {'name': 'Дата проведения', 'tokens': ('когда', 'сколько', 'дата', 'дату'), 'scenario': None, 'answer': 'Конференция проводится 9 мая, регистрация начнется в 10 утра'}
+08-05-2020 10:19 DEBUG User gets {'name': 'Место проведения', 'tokens': ('где', 'место', 'локация', 'адрес', 'метро'), 'scenario': None, 'answer': 'Конференция пройдет на Красной Площади, около Ленина'}
+08-05-2020 10:19 DEBUG User gets {'name': 'Регистрация', 'tokens': ('регист', 'добави'), 'scenario': 'registration', 'answer': None}
+08-05-2020 10:19 DEBUG получено событие
+08-05-2020 10:19 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 10:20 DEBUG получено событие
+08-05-2020 10:20 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 10:20 DEBUG получено событие
+08-05-2020 10:20 DEBUG получено событие
+08-05-2020 10:20 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 10:20 DEBUG получено событие
+08-05-2020 10:20 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 10:20 DEBUG получено событие
+08-05-2020 10:20 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 10:20 DEBUG получено событие
+08-05-2020 10:20 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 10:20 DEBUG получено событие
+08-05-2020 10:20 DEBUG получено событие
+08-05-2020 10:20 DEBUG получено событие
+08-05-2020 10:20 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 10:20 DEBUG получено событие
+08-05-2020 10:20 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 10:20 DEBUG получено событие
+08-05-2020 10:20 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 10:20 DEBUG получено событие
+08-05-2020 10:20 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 10:20 DEBUG получено событие
+08-05-2020 10:20 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 10:20 DEBUG получено событие
+08-05-2020 10:20 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 10:20 DEBUG получено событие
+08-05-2020 10:20 DEBUG получено событие
+08-05-2020 10:20 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 10:20 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 10:20 DEBUG получено событие
+08-05-2020 10:20 DEBUG получено событие
+08-05-2020 10:20 DEBUG получено событие
+08-05-2020 10:20 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 10:20 DEBUG получено событие
+08-05-2020 10:20 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 10:20 DEBUG получено событие
+08-05-2020 10:20 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 10:20 DEBUG получено событие
+08-05-2020 10:20 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 10:20 DEBUG получено событие
+08-05-2020 10:20 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 10:20 DEBUG получено событие
+08-05-2020 10:20 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 10:20 DEBUG получено событие
+08-05-2020 10:20 DEBUG получено событие
+08-05-2020 10:20 ERROR Ошибка в обработке события
+Traceback (most recent call last):
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 60, in run
+    self.on_event(event)
+  File "<string>", line 2, in on_event
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/core.py", line 547, in new_func
+    reraise(exc_type, exc, tb)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/utils/utils.py", line 95, in reraise
+    try: raise exc.with_traceback(tb)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/core.py", line 529, in new_func
+    commit()
+  File "<string>", line 2, in commit
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/utils/utils.py", line 77, in cut_traceback
+    reraise(exc_type, exc, last_pony_tb)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/utils/utils.py", line 95, in reraise
+    try: raise exc.with_traceback(tb)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/core.py", line 5363, in _save_deleted_
+    throw(OptimisticCheckError, obj.find_updated_attributes())
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/utils/utils.py", line 108, in throw
+    raise exc  # Set "pony.options.CUT_TRACEBACK = False" to see full traceback
+pony.orm.core.OptimisticCheckError: Object UserState[38] was deleted outside of current transaction
+08-05-2020 10:20 DEBUG получено событие
+08-05-2020 10:20 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 10:20 DEBUG получено событие
+08-05-2020 10:20 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 10:20 DEBUG получено событие
+08-05-2020 10:20 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 10:20 DEBUG получено событие
+08-05-2020 10:20 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 10:21 DEBUG получено событие
+08-05-2020 10:21 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 10:21 DEBUG получено событие
+08-05-2020 10:21 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 10:21 DEBUG получено событие
+08-05-2020 10:21 DEBUG получено событие
+08-05-2020 10:21 DEBUG User gets {'name': 'Дата проведения', 'tokens': ('когда', 'сколько', 'дата', 'дату'), 'scenario': None, 'answer': 'Конференция проводится 9 мая, регистрация начнется в 10 утра'}
+08-05-2020 10:21 DEBUG User gets {'name': 'Место проведения', 'tokens': ('где', 'место', 'локация', 'адрес', 'метро'), 'scenario': None, 'answer': 'Конференция пройдет на Красной Площади, около Ленина'}
+08-05-2020 10:21 DEBUG User gets {'name': 'Регистрация', 'tokens': ('регист', 'добави'), 'scenario': 'registration', 'answer': None}
+08-05-2020 10:21 DEBUG User gets {'name': 'Дата проведения', 'tokens': ('когда', 'сколько', 'дата', 'дату'), 'scenario': None, 'answer': 'Конференция проводится 9 мая, регистрация начнется в 10 утра'}
+08-05-2020 10:21 DEBUG User gets {'name': 'Место проведения', 'tokens': ('где', 'место', 'локация', 'адрес', 'метро'), 'scenario': None, 'answer': 'Конференция пройдет на Красной Площади, около Ленина'}
+08-05-2020 10:21 DEBUG User gets {'name': 'Регистрация', 'tokens': ('регист', 'добави'), 'scenario': 'registration', 'answer': None}
+08-05-2020 10:21 DEBUG получено событие
+08-05-2020 10:21 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 10:21 DEBUG получено событие
+08-05-2020 10:21 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 10:21 DEBUG получено событие
+08-05-2020 10:21 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 10:21 DEBUG получено событие
+08-05-2020 10:21 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 10:22 DEBUG получено событие
+08-05-2020 10:22 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 10:22 DEBUG получено событие
+08-05-2020 10:22 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 10:22 DEBUG получено событие
+08-05-2020 10:22 DEBUG получено событие
+08-05-2020 10:22 DEBUG User gets {'name': 'Дата проведения', 'tokens': ('когда', 'сколько', 'дата', 'дату'), 'scenario': None, 'answer': 'Конференция проводится 9 мая, регистрация начнется в 10 утра'}
+08-05-2020 10:22 DEBUG User gets {'name': 'Дата проведения', 'tokens': ('когда', 'сколько', 'дата', 'дату'), 'scenario': None, 'answer': 'Конференция проводится 9 мая, регистрация начнется в 10 утра'}
+08-05-2020 10:22 DEBUG User gets {'name': 'Место проведения', 'tokens': ('где', 'место', 'локация', 'адрес', 'метро'), 'scenario': None, 'answer': 'Конференция пройдет на Красной Площади, около Ленина'}
+08-05-2020 10:22 DEBUG User gets {'name': 'Место проведения', 'tokens': ('где', 'место', 'локация', 'адрес', 'метро'), 'scenario': None, 'answer': 'Конференция пройдет на Красной Площади, около Ленина'}
+08-05-2020 10:22 DEBUG User gets {'name': 'Регистрация', 'tokens': ('регист', 'добави'), 'scenario': 'registration', 'answer': None}
+08-05-2020 10:22 DEBUG User gets {'name': 'Регистрация', 'tokens': ('регист', 'добави'), 'scenario': 'registration', 'answer': None}
+08-05-2020 10:22 DEBUG получено событие
+08-05-2020 10:22 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 10:22 DEBUG получено событие
+08-05-2020 10:22 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 10:22 ERROR Ошибка в обработке события
+Traceback (most recent call last):
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 60, in run
+    self.on_event(event)
+  File "<string>", line 2, in on_event
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/core.py", line 547, in new_func
+    reraise(exc_type, exc, tb)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/utils/utils.py", line 95, in reraise
+    try: raise exc.with_traceback(tb)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/core.py", line 529, in new_func
+    commit()
+  File "<string>", line 2, in commit
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/utils/utils.py", line 77, in cut_traceback
+    reraise(exc_type, exc, last_pony_tb)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/utils/utils.py", line 95, in reraise
+    try: raise exc.with_traceback(tb)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/core.py", line 5264, in _save_created_
+    % (obj, e.__class__.__name__, msg), e)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/utils/utils.py", line 108, in throw
+    raise exc  # Set "pony.options.CUT_TRACEBACK = False" to see full traceback
+pony.orm.core.TransactionIntegrityError: Object UserState[new:5] cannot be stored in the database. IntegrityError: duplicate key value violates unique constraint "userstate_user_id_key"
+DETAIL:  Key (user_id)=(587091303) already exists.
+
+08-05-2020 10:22 DEBUG получено событие
+08-05-2020 10:22 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 10:22 DEBUG получено событие
+08-05-2020 10:22 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 10:22 DEBUG получено событие
+08-05-2020 10:22 DEBUG получено событие
+08-05-2020 10:22 ERROR Ошибка в обработке события
+Traceback (most recent call last):
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 60, in run
+    self.on_event(event)
+  File "<string>", line 2, in on_event
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/core.py", line 547, in new_func
+    reraise(exc_type, exc, tb)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/utils/utils.py", line 95, in reraise
+    try: raise exc.with_traceback(tb)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/core.py", line 529, in new_func
+    commit()
+  File "<string>", line 2, in commit
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/utils/utils.py", line 77, in cut_traceback
+    reraise(exc_type, exc, last_pony_tb)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/utils/utils.py", line 95, in reraise
+    try: raise exc.with_traceback(tb)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/core.py", line 5332, in _save_updated_
+    throw(OptimisticCheckError, obj.find_updated_attributes())
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/utils/utils.py", line 108, in throw
+    raise exc  # Set "pony.options.CUT_TRACEBACK = False" to see full traceback
+pony.orm.core.OptimisticCheckError: Object UserState[39] was updated outside of current transaction. Changes: step_name ('step1' -> 'step2'), context ('{}' -> '{"name": "Анна"}')
+08-05-2020 10:22 DEBUG получено событие
+08-05-2020 10:22 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 10:22 DEBUG получено событие
+08-05-2020 10:22 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 10:22 DEBUG получено событие
+08-05-2020 10:22 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 10:22 DEBUG получено событие
+08-05-2020 10:22 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 10:22 DEBUG получено событие
+08-05-2020 10:22 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 10:22 DEBUG получено событие
+08-05-2020 10:22 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 10:22 DEBUG получено событие
+08-05-2020 10:22 DEBUG получено событие
+08-05-2020 10:22 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 10:22 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 10:22 DEBUG получено событие
+08-05-2020 10:22 DEBUG получено событие
+08-05-2020 10:22 ERROR Ошибка в обработке события
+Traceback (most recent call last):
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 60, in run
+    self.on_event(event)
+  File "<string>", line 2, in on_event
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/core.py", line 547, in new_func
+    reraise(exc_type, exc, tb)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/utils/utils.py", line 95, in reraise
+    try: raise exc.with_traceback(tb)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/core.py", line 529, in new_func
+    commit()
+  File "<string>", line 2, in commit
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/utils/utils.py", line 77, in cut_traceback
+    reraise(exc_type, exc, last_pony_tb)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/utils/utils.py", line 95, in reraise
+    try: raise exc.with_traceback(tb)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/core.py", line 5363, in _save_deleted_
+    throw(OptimisticCheckError, obj.find_updated_attributes())
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/utils/utils.py", line 108, in throw
+    raise exc  # Set "pony.options.CUT_TRACEBACK = False" to see full traceback
+pony.orm.core.OptimisticCheckError: Object UserState[39] was deleted outside of current transaction
+08-05-2020 10:22 DEBUG получено событие
+08-05-2020 10:22 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 10:22 DEBUG получено событие
+08-05-2020 10:22 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 10:22 DEBUG получено событие
+08-05-2020 10:22 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 10:22 DEBUG получено событие
+08-05-2020 10:22 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 10:24 DEBUG получено событие
+08-05-2020 10:24 DEBUG получено событие
+08-05-2020 10:24 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 10:24 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 10:24 DEBUG получено событие
+08-05-2020 10:24 DEBUG получено событие
+08-05-2020 10:24 DEBUG User gets {'name': 'Дата проведения', 'tokens': ('когда', 'сколько', 'дата', 'дату'), 'scenario': None, 'answer': 'Конференция проводится 9 мая, регистрация начнется в 10 утра'}
+08-05-2020 10:24 DEBUG User gets {'name': 'Место проведения', 'tokens': ('где', 'место', 'локация', 'адрес', 'метро'), 'scenario': None, 'answer': 'Конференция пройдет на Красной Площади, около Ленина'}
+08-05-2020 10:24 DEBUG User gets {'name': 'Регистрация', 'tokens': ('регист', 'добави'), 'scenario': 'registration', 'answer': None}
+08-05-2020 10:24 DEBUG User gets {'name': 'Дата проведения', 'tokens': ('когда', 'сколько', 'дата', 'дату'), 'scenario': None, 'answer': 'Конференция проводится 9 мая, регистрация начнется в 10 утра'}
+08-05-2020 10:24 DEBUG User gets {'name': 'Место проведения', 'tokens': ('где', 'место', 'локация', 'адрес', 'метро'), 'scenario': None, 'answer': 'Конференция пройдет на Красной Площади, около Ленина'}
+08-05-2020 10:24 DEBUG User gets {'name': 'Регистрация', 'tokens': ('регист', 'добави'), 'scenario': 'registration', 'answer': None}
+08-05-2020 10:24 DEBUG получено событие
+08-05-2020 10:24 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 10:24 DEBUG получено событие
+08-05-2020 10:24 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 10:24 DEBUG получено событие
+08-05-2020 10:24 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 10:24 DEBUG получено событие
+08-05-2020 10:24 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 10:27 DEBUG получено событие
+08-05-2020 10:27 DEBUG получено событие
+08-05-2020 10:27 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 10:27 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 10:27 DEBUG получено событие
+08-05-2020 10:27 DEBUG получено событие
+08-05-2020 10:27 DEBUG User gets {'name': 'Дата проведения', 'tokens': ('когда', 'сколько', 'дата', 'дату'), 'scenario': None, 'answer': 'Конференция проводится 9 мая, регистрация начнется в 10 утра'}
+08-05-2020 10:27 DEBUG User gets {'name': 'Место проведения', 'tokens': ('где', 'место', 'локация', 'адрес', 'метро'), 'scenario': None, 'answer': 'Конференция пройдет на Красной Площади, около Ленина'}
+08-05-2020 10:27 DEBUG User gets {'name': 'Регистрация', 'tokens': ('регист', 'добави'), 'scenario': 'registration', 'answer': None}
+08-05-2020 10:27 DEBUG User gets {'name': 'Дата проведения', 'tokens': ('когда', 'сколько', 'дата', 'дату'), 'scenario': None, 'answer': 'Конференция проводится 9 мая, регистрация начнется в 10 утра'}
+08-05-2020 10:27 DEBUG User gets {'name': 'Место проведения', 'tokens': ('где', 'место', 'локация', 'адрес', 'метро'), 'scenario': None, 'answer': 'Конференция пройдет на Красной Площади, около Ленина'}
+08-05-2020 10:27 DEBUG User gets {'name': 'Регистрация', 'tokens': ('регист', 'добави'), 'scenario': 'registration', 'answer': None}
+08-05-2020 10:27 DEBUG получено событие
+08-05-2020 10:27 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 10:27 DEBUG получено событие
+08-05-2020 10:27 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 10:27 DEBUG получено событие
+08-05-2020 10:27 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 10:27 DEBUG получено событие
+08-05-2020 10:27 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 10:27 DEBUG получено событие
+08-05-2020 10:27 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 10:27 DEBUG получено событие
+08-05-2020 10:27 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 10:27 DEBUG получено событие
+08-05-2020 10:27 DEBUG получено событие
+08-05-2020 10:27 DEBUG User gets {'name': 'Дата проведения', 'tokens': ('когда', 'сколько', 'дата', 'дату'), 'scenario': None, 'answer': 'Конференция проводится 9 мая, регистрация начнется в 10 утра'}
+08-05-2020 10:27 DEBUG User gets {'name': 'Дата проведения', 'tokens': ('когда', 'сколько', 'дата', 'дату'), 'scenario': None, 'answer': 'Конференция проводится 9 мая, регистрация начнется в 10 утра'}
+08-05-2020 10:27 DEBUG User gets {'name': 'Место проведения', 'tokens': ('где', 'место', 'локация', 'адрес', 'метро'), 'scenario': None, 'answer': 'Конференция пройдет на Красной Площади, около Ленина'}
+08-05-2020 10:27 DEBUG User gets {'name': 'Регистрация', 'tokens': ('регист', 'добави'), 'scenario': 'registration', 'answer': None}
+08-05-2020 10:27 DEBUG User gets {'name': 'Место проведения', 'tokens': ('где', 'место', 'локация', 'адрес', 'метро'), 'scenario': None, 'answer': 'Конференция пройдет на Красной Площади, около Ленина'}
+08-05-2020 10:27 DEBUG User gets {'name': 'Регистрация', 'tokens': ('регист', 'добави'), 'scenario': 'registration', 'answer': None}
+08-05-2020 10:27 DEBUG получено событие
+08-05-2020 10:27 DEBUG получено событие
+08-05-2020 10:27 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 10:27 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 10:27 DEBUG получено событие
+08-05-2020 10:27 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 10:27 DEBUG получено событие
+08-05-2020 10:27 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 10:29 DEBUG получено событие
+08-05-2020 10:29 DEBUG получено событие
+08-05-2020 10:29 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 10:29 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 10:29 DEBUG получено событие
+08-05-2020 10:29 DEBUG User gets {'name': 'Дата проведения', 'tokens': ('когда', 'сколько', 'дата', 'дату'), 'scenario': None, 'answer': 'Конференция проводится 9 мая, регистрация начнется в 10 утра'}
+08-05-2020 10:29 DEBUG User gets {'name': 'Место проведения', 'tokens': ('где', 'место', 'локация', 'адрес', 'метро'), 'scenario': None, 'answer': 'Конференция пройдет на Красной Площади, около Ленина'}
+08-05-2020 10:29 DEBUG User gets {'name': 'Регистрация', 'tokens': ('регист', 'добави'), 'scenario': 'registration', 'answer': None}
+08-05-2020 10:29 DEBUG получено событие
+08-05-2020 10:29 DEBUG User gets {'name': 'Дата проведения', 'tokens': ('когда', 'сколько', 'дата', 'дату'), 'scenario': None, 'answer': 'Конференция проводится 9 мая, регистрация начнется в 10 утра'}
+08-05-2020 10:29 DEBUG User gets {'name': 'Место проведения', 'tokens': ('где', 'место', 'локация', 'адрес', 'метро'), 'scenario': None, 'answer': 'Конференция пройдет на Красной Площади, около Ленина'}
+08-05-2020 10:29 DEBUG User gets {'name': 'Регистрация', 'tokens': ('регист', 'добави'), 'scenario': 'registration', 'answer': None}
+08-05-2020 10:29 DEBUG получено событие
+08-05-2020 10:29 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 10:29 DEBUG получено событие
+08-05-2020 10:29 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 10:29 DEBUG получено событие
+08-05-2020 10:29 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 10:29 DEBUG получено событие
+08-05-2020 10:29 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 10:29 DEBUG получено событие
+08-05-2020 10:29 DEBUG получено событие
+08-05-2020 10:29 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 10:29 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 10:29 DEBUG получено событие
+08-05-2020 10:29 DEBUG получено событие
+08-05-2020 10:29 DEBUG User gets {'name': 'Дата проведения', 'tokens': ('когда', 'сколько', 'дата', 'дату'), 'scenario': None, 'answer': 'Конференция проводится 9 мая, регистрация начнется в 10 утра'}
+08-05-2020 10:29 DEBUG User gets {'name': 'Место проведения', 'tokens': ('где', 'место', 'локация', 'адрес', 'метро'), 'scenario': None, 'answer': 'Конференция пройдет на Красной Площади, около Ленина'}
+08-05-2020 10:29 DEBUG User gets {'name': 'Регистрация', 'tokens': ('регист', 'добави'), 'scenario': 'registration', 'answer': None}
+08-05-2020 10:29 DEBUG User gets {'name': 'Дата проведения', 'tokens': ('когда', 'сколько', 'дата', 'дату'), 'scenario': None, 'answer': 'Конференция проводится 9 мая, регистрация начнется в 10 утра'}
+08-05-2020 10:29 DEBUG User gets {'name': 'Место проведения', 'tokens': ('где', 'место', 'локация', 'адрес', 'метро'), 'scenario': None, 'answer': 'Конференция пройдет на Красной Площади, около Ленина'}
+08-05-2020 10:29 DEBUG User gets {'name': 'Регистрация', 'tokens': ('регист', 'добави'), 'scenario': 'registration', 'answer': None}
+08-05-2020 10:29 DEBUG получено событие
+08-05-2020 10:29 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 10:29 DEBUG получено событие
+08-05-2020 10:29 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 10:29 DEBUG получено событие
+08-05-2020 10:29 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 10:29 DEBUG получено событие
+08-05-2020 10:29 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 10:29 DEBUG получено событие
+08-05-2020 10:29 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 10:29 DEBUG получено событие
+08-05-2020 10:29 DEBUG User gets {'name': 'Дата проведения', 'tokens': ('когда', 'сколько', 'дата', 'дату'), 'scenario': None, 'answer': 'Конференция проводится 9 мая, регистрация начнется в 10 утра'}
+08-05-2020 10:29 DEBUG User gets {'name': 'Место проведения', 'tokens': ('где', 'место', 'локация', 'адрес', 'метро'), 'scenario': None, 'answer': 'Конференция пройдет на Красной Площади, около Ленина'}
+08-05-2020 10:29 DEBUG User gets {'name': 'Регистрация', 'tokens': ('регист', 'добави'), 'scenario': 'registration', 'answer': None}
+08-05-2020 10:29 DEBUG получено событие
+08-05-2020 10:29 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 10:30 DEBUG получено событие
+08-05-2020 10:30 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 10:30 DEBUG получено событие
+08-05-2020 10:30 DEBUG User gets {'name': 'Дата проведения', 'tokens': ('когда', 'сколько', 'дата', 'дату'), 'scenario': None, 'answer': 'Конференция проводится 9 мая, регистрация начнется в 10 утра'}
+08-05-2020 10:30 DEBUG User gets {'name': 'Место проведения', 'tokens': ('где', 'место', 'локация', 'адрес', 'метро'), 'scenario': None, 'answer': 'Конференция пройдет на Красной Площади, около Ленина'}
+08-05-2020 10:30 DEBUG User gets {'name': 'Регистрация', 'tokens': ('регист', 'добави'), 'scenario': 'registration', 'answer': None}
+08-05-2020 10:30 DEBUG получено событие
+08-05-2020 10:30 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 10:30 DEBUG получено событие
+08-05-2020 10:30 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 10:30 DEBUG получено событие
+08-05-2020 10:30 DEBUG получено событие
+08-05-2020 10:30 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 10:30 DEBUG получено событие
+08-05-2020 10:30 DEBUG получено событие
+08-05-2020 10:30 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 10:30 DEBUG получено событие
+08-05-2020 10:30 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 10:30 DEBUG получено событие
+08-05-2020 10:30 DEBUG получено событие
+08-05-2020 10:30 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 10:31 DEBUG получено событие
+08-05-2020 10:31 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 10:31 DEBUG получено событие
+08-05-2020 10:31 DEBUG получено событие
+08-05-2020 10:31 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 10:34 DEBUG получено событие
+08-05-2020 10:34 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 10:34 DEBUG получено событие
+08-05-2020 10:34 DEBUG получено событие
+08-05-2020 10:34 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 10:34 DEBUG получено событие
+08-05-2020 10:34 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 10:34 DEBUG получено событие
+08-05-2020 10:34 DEBUG получено событие
+08-05-2020 10:34 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 10:34 DEBUG получено событие
+08-05-2020 10:34 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 10:34 DEBUG получено событие
+08-05-2020 10:34 DEBUG получено событие
+08-05-2020 10:34 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 10:35 DEBUG получено событие
+08-05-2020 10:35 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 10:35 DEBUG получено событие
+08-05-2020 10:35 DEBUG получено событие
+08-05-2020 10:35 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 10:35 DEBUG получено событие
+08-05-2020 10:35 DEBUG получено событие
+08-05-2020 10:35 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 10:35 DEBUG получено событие
+08-05-2020 10:35 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 10:35 DEBUG получено событие
+08-05-2020 10:35 DEBUG получено событие
+08-05-2020 10:35 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 10:37 DEBUG получено событие
+08-05-2020 10:37 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 10:37 DEBUG получено событие
+08-05-2020 10:37 DEBUG получено событие
+08-05-2020 10:37 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 10:38 DEBUG получено событие
+08-05-2020 10:38 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 10:38 DEBUG получено событие
+08-05-2020 10:38 DEBUG получено событие
+08-05-2020 10:38 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 10:47 DEBUG получено событие
+08-05-2020 10:47 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 10:47 DEBUG получено событие
+08-05-2020 10:47 DEBUG получено событие
+08-05-2020 10:47 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 10:48 DEBUG получено событие
+08-05-2020 10:48 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 10:48 DEBUG получено событие
+08-05-2020 10:48 DEBUG получено событие
+08-05-2020 10:48 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 10:48 DEBUG получено событие
+08-05-2020 10:48 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 10:48 DEBUG получено событие
+08-05-2020 10:48 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 10:48 DEBUG получено событие
+08-05-2020 10:48 DEBUG получено событие
+08-05-2020 10:48 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 10:51 DEBUG получено событие
+08-05-2020 10:51 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 10:51 DEBUG получено событие
+08-05-2020 10:51 DEBUG User gets {'name': 'Дата проведения', 'tokens': ('когда', 'сколько', 'дата', 'дату'), 'scenario': None, 'answer': 'Конференция проводится 9 мая, регистрация начнется в 10 утра'}
+08-05-2020 10:51 DEBUG User gets {'name': 'Место проведения', 'tokens': ('где', 'место', 'локация', 'адрес', 'метро'), 'scenario': None, 'answer': 'Конференция пройдет на Красной Площади, около Ленина'}
+08-05-2020 10:51 DEBUG User gets {'name': 'Регистрация', 'tokens': ('регист', 'добави'), 'scenario': 'registration', 'answer': None}
+08-05-2020 10:51 DEBUG получено событие
+08-05-2020 10:51 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 10:51 DEBUG получено событие
+08-05-2020 10:51 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 10:51 DEBUG получено событие
+08-05-2020 10:51 DEBUG User gets {'name': 'Дата проведения', 'tokens': ('когда', 'сколько', 'дата', 'дату'), 'scenario': None, 'answer': 'Конференция проводится 9 мая, регистрация начнется в 10 утра'}
+08-05-2020 10:51 DEBUG получено событие
+08-05-2020 10:51 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 10:51 DEBUG получено событие
+08-05-2020 10:51 DEBUG User gets {'name': 'Дата проведения', 'tokens': ('когда', 'сколько', 'дата', 'дату'), 'scenario': None, 'answer': 'Конференция проводится 9 мая, регистрация начнется в 10 утра'}
+08-05-2020 10:51 DEBUG User gets {'name': 'Место проведения', 'tokens': ('где', 'место', 'локация', 'адрес', 'метро'), 'scenario': None, 'answer': 'Конференция пройдет на Красной Площади, около Ленина'}
+08-05-2020 10:51 DEBUG получено событие
+08-05-2020 10:51 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 10:52 DEBUG получено событие
+08-05-2020 10:52 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 10:52 DEBUG получено событие
+08-05-2020 10:52 DEBUG User gets {'name': 'Дата проведения', 'tokens': ('когда', 'сколько', 'дата', 'дату'), 'scenario': None, 'answer': 'Конференция проводится 9 мая, регистрация начнется в 10 утра'}
+08-05-2020 10:52 DEBUG User gets {'name': 'Место проведения', 'tokens': ('где', 'место', 'локация', 'адрес', 'метро'), 'scenario': None, 'answer': 'Конференция пройдет на Красной Площади, около Ленина'}
+08-05-2020 10:52 DEBUG User gets {'name': 'Регистрация', 'tokens': ('регист', 'добави'), 'scenario': 'registration', 'answer': None}
+08-05-2020 10:52 DEBUG получено событие
+08-05-2020 10:52 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 10:57 DEBUG получено событие
+08-05-2020 10:57 DEBUG получено событие
+08-05-2020 10:57 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 10:57 DEBUG получено событие
+08-05-2020 10:57 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 10:57 DEBUG получено событие
+08-05-2020 10:57 DEBUG получено событие
+08-05-2020 10:57 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 10:57 DEBUG получено событие
+08-05-2020 10:57 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 10:57 DEBUG получено событие
+08-05-2020 10:57 DEBUG получено событие
+08-05-2020 10:57 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 10:58 DEBUG получено событие
+08-05-2020 10:58 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 10:58 DEBUG получено событие
+08-05-2020 10:58 DEBUG User gets {'name': 'Дата проведения', 'tokens': ('когда', 'сколько', 'дата', 'дату'), 'scenario': None, 'answer': 'Конференция проводится 9 мая, регистрация начнется в 10 утра'}
+08-05-2020 10:58 DEBUG User gets {'name': 'Место проведения', 'tokens': ('где', 'место', 'локация', 'адрес', 'метро'), 'scenario': None, 'answer': 'Конференция пройдет на Красной Площади, около Ленина'}
+08-05-2020 10:58 DEBUG User gets {'name': 'Регистрация', 'tokens': ('регист', 'добави'), 'scenario': 'registration', 'answer': None}
+08-05-2020 10:58 DEBUG получено событие
+08-05-2020 10:58 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 10:58 DEBUG получено событие
+08-05-2020 10:58 DEBUG User gets {'name': 'Дата проведения', 'tokens': ('когда', 'сколько', 'дата', 'дату'), 'scenario': None, 'answer': 'Конференция проводится 9 мая, регистрация начнется в 10 утра'}
+08-05-2020 10:58 DEBUG User gets {'name': 'Место проведения', 'tokens': ('где', 'место', 'локация', 'адрес', 'метро'), 'scenario': None, 'answer': 'Конференция пройдет на Красной Площади, около Ленина'}
+08-05-2020 10:58 DEBUG User gets {'name': 'Регистрация', 'tokens': ('регист', 'добави'), 'scenario': 'registration', 'answer': None}
+08-05-2020 10:58 DEBUG получено событие
+08-05-2020 10:58 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 10:58 DEBUG получено событие
+08-05-2020 10:58 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 10:58 DEBUG получено событие
+08-05-2020 10:58 DEBUG получено событие
+08-05-2020 10:58 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 10:59 DEBUG получено событие
+08-05-2020 10:59 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 10:59 DEBUG получено событие
+08-05-2020 10:59 DEBUG получено событие
+08-05-2020 10:59 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 10:59 DEBUG получено событие
+08-05-2020 10:59 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 10:59 DEBUG получено событие
+08-05-2020 10:59 DEBUG User gets {'name': 'Дата проведения', 'tokens': ('когда', 'сколько', 'дата', 'дату'), 'scenario': None, 'answer': 'Конференция проводится 9 мая, регистрация начнется в 10 утра'}
+08-05-2020 10:59 DEBUG User gets {'name': 'Место проведения', 'tokens': ('где', 'место', 'локация', 'адрес', 'метро'), 'scenario': None, 'answer': 'Конференция пройдет на Красной Площади, около Ленина'}
+08-05-2020 10:59 DEBUG User gets {'name': 'Регистрация', 'tokens': ('регист', 'добави'), 'scenario': 'registration', 'answer': None}
+08-05-2020 10:59 DEBUG получено событие
+08-05-2020 10:59 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 10:59 DEBUG получено событие
+08-05-2020 10:59 DEBUG User gets {'name': 'Дата проведения', 'tokens': ('когда', 'сколько', 'дата', 'дату'), 'scenario': None, 'answer': 'Конференция проводится 9 мая, регистрация начнется в 10 утра'}
+08-05-2020 10:59 DEBUG User gets {'name': 'Место проведения', 'tokens': ('где', 'место', 'локация', 'адрес', 'метро'), 'scenario': None, 'answer': 'Конференция пройдет на Красной Площади, около Ленина'}
+08-05-2020 10:59 DEBUG User gets {'name': 'Регистрация', 'tokens': ('регист', 'добави'), 'scenario': 'registration', 'answer': None}
+08-05-2020 10:59 DEBUG получено событие
+08-05-2020 10:59 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 11:00 DEBUG получено событие
+08-05-2020 11:00 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 11:00 DEBUG получено событие
+08-05-2020 11:00 DEBUG получено событие
+08-05-2020 11:00 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 11:00 DEBUG получено событие
+08-05-2020 11:00 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 11:00 DEBUG получено событие
+08-05-2020 11:00 DEBUG получено событие
+08-05-2020 11:00 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 11:01 DEBUG получено событие
+08-05-2020 11:01 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 11:01 DEBUG получено событие
+08-05-2020 11:01 DEBUG User gets {'name': 'Дата проведения', 'tokens': ('когда', 'сколько', 'дата', 'дату'), 'scenario': None, 'answer': 'Конференция проводится 9 мая, регистрация начнется в 10 утра'}
+08-05-2020 11:01 DEBUG User gets {'name': 'Место проведения', 'tokens': ('где', 'место', 'локация', 'адрес', 'метро'), 'scenario': None, 'answer': 'Конференция пройдет на Красной Площади, около Ленина'}
+08-05-2020 11:01 DEBUG User gets {'name': 'Регистрация', 'tokens': ('регист', 'добави'), 'scenario': 'registration', 'answer': None}
+08-05-2020 11:01 DEBUG получено событие
+08-05-2020 11:01 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 11:01 DEBUG получено событие
+08-05-2020 11:01 DEBUG получено событие
+08-05-2020 11:01 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 11:01 DEBUG получено событие
+08-05-2020 11:01 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 11:01 DEBUG получено событие
+08-05-2020 11:01 ERROR Ошибка в обработке события
+Traceback (most recent call last):
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 60, in run
+    self.on_event(event)
+  File "<string>", line 2, in on_event
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/core.py", line 528, in new_func
+    result = func(*args, **kwargs)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 84, in on_event
+    self.continue_scenario(text=text, state=state, user_id=user_id)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 142, in continue_scenario
+    self.sent_step(next_step, user_id, text, state.context)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 126, in sent_step
+    self.send_image(user_id=user_id, image=image)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 109, in send_image
+    upload_url = self.api.photos.saveMessagesPhoto()['upload_url']
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/vk_api/vk_api.py", line 681, in __call__
+    return self._vk.method(self._method, kwargs)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/vk_api/vk_api.py", line 646, in method
+    raise error
+vk_api.exceptions.ApiError: [100] One of the parameters specified was missing or invalid: photo is undefined
+08-05-2020 11:01 DEBUG получено событие
+08-05-2020 11:01 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 11:03 DEBUG получено событие
+08-05-2020 11:03 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 11:03 DEBUG получено событие
+08-05-2020 11:03 DEBUG получено событие
+08-05-2020 11:03 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 11:03 DEBUG получено событие
+08-05-2020 11:03 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 11:03 DEBUG получено событие
+08-05-2020 11:03 ERROR Ошибка в обработке события
+Traceback (most recent call last):
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 60, in run
+    self.on_event(event)
+  File "<string>", line 2, in on_event
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/core.py", line 528, in new_func
+    result = func(*args, **kwargs)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 84, in on_event
+    self.continue_scenario(text=text, state=state, user_id=user_id)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 142, in continue_scenario
+    self.sent_step(next_step, user_id, text, state.context)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 126, in sent_step
+    self.send_image(user_id=user_id, image=image)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 109, in send_image
+    upload_url = self.api.photos.saveMessagesPhoto()['upload_url']
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/vk_api/vk_api.py", line 681, in __call__
+    return self._vk.method(self._method, kwargs)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/vk_api/vk_api.py", line 646, in method
+    raise error
+vk_api.exceptions.ApiError: [100] One of the parameters specified was missing or invalid: photo is undefined
+08-05-2020 11:03 DEBUG получено событие
+08-05-2020 11:03 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 11:10 DEBUG получено событие
+08-05-2020 11:10 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 11:10 DEBUG получено событие
+08-05-2020 11:10 DEBUG получено событие
+08-05-2020 11:10 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 11:10 DEBUG получено событие
+08-05-2020 11:10 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 11:10 DEBUG получено событие
+08-05-2020 11:10 ERROR Ошибка в обработке события
+Traceback (most recent call last):
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 60, in run
+    self.on_event(event)
+  File "<string>", line 2, in on_event
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/core.py", line 528, in new_func
+    result = func(*args, **kwargs)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 84, in on_event
+    self.continue_scenario(text=text, state=state, user_id=user_id)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 142, in continue_scenario
+    self.sent_step(next_step, user_id, text, state.context)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 126, in sent_step
+    self.send_image(user_id=user_id, image=image)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 111, in send_image
+    image_data = self.api.photos.saveMessagesPhoto(**upload_date)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/vk_api/vk_api.py", line 681, in __call__
+    return self._vk.method(self._method, kwargs)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/vk_api/vk_api.py", line 646, in method
+    raise error
+vk_api.exceptions.ApiError: [100] One of the parameters specified was missing or invalid: photos_list is invalid
+08-05-2020 11:10 DEBUG получено событие
+08-05-2020 11:10 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 11:12 DEBUG получено событие
+08-05-2020 11:12 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 11:12 DEBUG получено событие
+08-05-2020 11:12 DEBUG получено событие
+08-05-2020 11:12 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 11:12 DEBUG получено событие
+08-05-2020 11:12 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 11:12 DEBUG получено событие
+08-05-2020 11:12 DEBUG получено событие
+08-05-2020 11:12 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 11:12 DEBUG получено событие
+08-05-2020 11:12 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 11:12 DEBUG получено событие
+08-05-2020 11:12 ERROR Ошибка в обработке события
+Traceback (most recent call last):
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 60, in run
+    self.on_event(event)
+  File "<string>", line 2, in on_event
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/core.py", line 528, in new_func
+    result = func(*args, **kwargs)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 84, in on_event
+    self.continue_scenario(text=text, state=state, user_id=user_id)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 143, in continue_scenario
+    self.sent_step(next_step, user_id, text, state.context)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 127, in sent_step
+    self.send_image(user_id=user_id, image=image)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 112, in send_image
+    image_data = self.api.photos.saveMessagesPhoto(**upload_date)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/vk_api/vk_api.py", line 681, in __call__
+    return self._vk.method(self._method, kwargs)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/vk_api/vk_api.py", line 646, in method
+    raise error
+vk_api.exceptions.ApiError: [100] One of the parameters specified was missing or invalid: photos_list is invalid
+08-05-2020 11:12 DEBUG получено событие
+08-05-2020 11:12 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 11:24 DEBUG получено событие
+08-05-2020 11:24 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 11:24 DEBUG получено событие
+08-05-2020 11:24 DEBUG получено событие
+08-05-2020 11:24 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 11:24 DEBUG получено событие
+08-05-2020 11:24 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 11:24 DEBUG получено событие
+08-05-2020 11:24 ERROR Ошибка в обработке события
+Traceback (most recent call last):
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 60, in run
+    self.on_event(event)
+  File "<string>", line 2, in on_event
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/core.py", line 528, in new_func
+    result = func(*args, **kwargs)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 84, in on_event
+    self.continue_scenario(text=text, state=state, user_id=user_id)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 143, in continue_scenario
+    self.sent_step(next_step, user_id, text, state.context)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 127, in sent_step
+    self.send_image(user_id=user_id, image=image)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 112, in send_image
+    image_data = self.api.photos.saveMessagesPhoto(**upload_date)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/vk_api/vk_api.py", line 681, in __call__
+    return self._vk.method(self._method, kwargs)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/vk_api/vk_api.py", line 646, in method
+    raise error
+vk_api.exceptions.ApiError: [100] One of the parameters specified was missing or invalid: photos_list is invalid
+08-05-2020 11:24 DEBUG получено событие
+08-05-2020 11:24 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 11:27 DEBUG получено событие
+08-05-2020 11:27 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 11:27 DEBUG получено событие
+08-05-2020 11:27 DEBUG получено событие
+08-05-2020 11:27 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 11:27 DEBUG получено событие
+08-05-2020 11:27 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 11:27 DEBUG получено событие
+08-05-2020 11:27 ERROR Ошибка в обработке события
+Traceback (most recent call last):
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 60, in run
+    self.on_event(event)
+  File "<string>", line 2, in on_event
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/core.py", line 528, in new_func
+    result = func(*args, **kwargs)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 84, in on_event
+    self.continue_scenario(text=text, state=state, user_id=user_id)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 144, in continue_scenario
+    self.sent_step(next_step, user_id, text, state.context)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 128, in sent_step
+    self.send_image(user_id=user_id, image=image)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 113, in send_image
+    image_data = self.api.photos.saveMessagesPhoto(**upload_date)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/vk_api/vk_api.py", line 681, in __call__
+    return self._vk.method(self._method, kwargs)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/vk_api/vk_api.py", line 646, in method
+    raise error
+vk_api.exceptions.ApiError: [100] One of the parameters specified was missing or invalid: photos_list is invalid
+08-05-2020 11:27 DEBUG получено событие
+08-05-2020 11:27 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 11:28 DEBUG получено событие
+08-05-2020 11:28 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 11:28 DEBUG получено событие
+08-05-2020 11:28 DEBUG получено событие
+08-05-2020 11:28 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 11:28 DEBUG получено событие
+08-05-2020 11:28 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 11:28 DEBUG получено событие
+08-05-2020 11:28 ERROR Ошибка в обработке события
+Traceback (most recent call last):
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 60, in run
+    self.on_event(event)
+  File "<string>", line 2, in on_event
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/core.py", line 528, in new_func
+    result = func(*args, **kwargs)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 84, in on_event
+    self.continue_scenario(text=text, state=state, user_id=user_id)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 144, in continue_scenario
+    self.sent_step(next_step, user_id, text, state.context)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 128, in sent_step
+    self.send_image(user_id=user_id, image=image)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 113, in send_image
+    image_data = self.api.photos.saveMessagesPhoto(**upload_date)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/vk_api/vk_api.py", line 681, in __call__
+    return self._vk.method(self._method, kwargs)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/vk_api/vk_api.py", line 646, in method
+    raise error
+vk_api.exceptions.ApiError: [100] One of the parameters specified was missing or invalid: photos_list is invalid
+08-05-2020 11:28 DEBUG получено событие
+08-05-2020 11:28 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 11:30 DEBUG получено событие
+08-05-2020 11:30 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 11:30 DEBUG получено событие
+08-05-2020 11:30 ERROR Ошибка в обработке события
+Traceback (most recent call last):
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 60, in run
+    self.on_event(event)
+  File "<string>", line 2, in on_event
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/core.py", line 528, in new_func
+    result = func(*args, **kwargs)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 84, in on_event
+    self.continue_scenario(text=text, state=state, user_id=user_id)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 144, in continue_scenario
+    self.sent_step(next_step, user_id, text, state.context)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 128, in sent_step
+    self.send_image(user_id=user_id, image=image)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 113, in send_image
+    image_data = self.api.photos.saveMessagesPhoto(**upload_date)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/vk_api/vk_api.py", line 681, in __call__
+    return self._vk.method(self._method, kwargs)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/vk_api/vk_api.py", line 646, in method
+    raise error
+vk_api.exceptions.ApiError: [100] One of the parameters specified was missing or invalid: photos_list is invalid
+08-05-2020 11:30 DEBUG получено событие
+08-05-2020 11:30 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 11:35 DEBUG получено событие
+08-05-2020 11:35 DEBUG получено событие
+08-05-2020 11:35 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 11:35 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 11:35 DEBUG получено событие
+08-05-2020 11:35 DEBUG получено событие
+08-05-2020 11:35 DEBUG получено событие
+08-05-2020 11:35 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 11:35 DEBUG получено событие
+08-05-2020 11:35 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 11:35 DEBUG получено событие
+08-05-2020 11:35 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 11:35 DEBUG получено событие
+08-05-2020 11:35 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 11:35 DEBUG получено событие
+08-05-2020 11:35 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 11:35 DEBUG получено событие
+08-05-2020 11:35 DEBUG получено событие
+08-05-2020 11:35 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 11:39 DEBUG получено событие
+08-05-2020 11:39 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 11:39 DEBUG получено событие
+08-05-2020 11:39 DEBUG получено событие
+08-05-2020 11:39 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 11:39 DEBUG получено событие
+08-05-2020 11:39 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 11:39 DEBUG получено событие
+08-05-2020 11:39 ERROR Ошибка в обработке события
+Traceback (most recent call last):
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 60, in run
+    self.on_event(event)
+  File "<string>", line 2, in on_event
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/core.py", line 528, in new_func
+    result = func(*args, **kwargs)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 84, in on_event
+    self.continue_scenario(text=text, state=state, user_id=user_id)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 144, in continue_scenario
+    self.sent_step(next_step, user_id, text, state.context)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 128, in sent_step
+    self.send_image(user_id=user_id, image=image)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 113, in send_image
+    image_data = self.api.photos.saveMessagesPhoto(**upload_date)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/vk_api/vk_api.py", line 681, in __call__
+    return self._vk.method(self._method, kwargs)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/vk_api/vk_api.py", line 646, in method
+    raise error
+vk_api.exceptions.ApiError: [100] One of the parameters specified was missing or invalid: photos_list is invalid
+08-05-2020 11:39 DEBUG получено событие
+08-05-2020 11:39 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 11:40 DEBUG получено событие
+08-05-2020 11:40 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 11:40 DEBUG получено событие
+08-05-2020 11:40 DEBUG получено событие
+08-05-2020 11:40 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 11:40 DEBUG получено событие
+08-05-2020 11:40 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 11:40 DEBUG получено событие
+08-05-2020 11:40 ERROR Ошибка в обработке события
+Traceback (most recent call last):
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 60, in run
+    self.on_event(event)
+  File "<string>", line 2, in on_event
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/core.py", line 528, in new_func
+    result = func(*args, **kwargs)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 84, in on_event
+    self.continue_scenario(text=text, state=state, user_id=user_id)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 144, in continue_scenario
+    self.sent_step(next_step, user_id, text, state.context)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 128, in sent_step
+    self.send_image(user_id=user_id, image=image)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 113, in send_image
+    image_data = self.api.photos.saveMessagesPhoto(**upload_date)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/vk_api/vk_api.py", line 681, in __call__
+    return self._vk.method(self._method, kwargs)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/vk_api/vk_api.py", line 646, in method
+    raise error
+vk_api.exceptions.ApiError: [100] One of the parameters specified was missing or invalid: photos_list is invalid
+08-05-2020 11:40 DEBUG получено событие
+08-05-2020 11:40 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 11:50 DEBUG получено событие
+08-05-2020 11:50 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 11:50 DEBUG получено событие
+08-05-2020 11:50 ERROR Ошибка в обработке события
+Traceback (most recent call last):
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 60, in run
+    self.on_event(event)
+  File "<string>", line 2, in on_event
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/core.py", line 528, in new_func
+    result = func(*args, **kwargs)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 84, in on_event
+    self.continue_scenario(text=text, state=state, user_id=user_id)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 143, in continue_scenario
+    self.sent_step(next_step, user_id, text, state.context)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 127, in sent_step
+    self.send_image(user_id=user_id, image=image)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 112, in send_image
+    image_data = self.api.photos.saveMessagesPhoto(**upload_date)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/vk_api/vk_api.py", line 681, in __call__
+    return self._vk.method(self._method, kwargs)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/vk_api/vk_api.py", line 646, in method
+    raise error
+vk_api.exceptions.ApiError: [100] One of the parameters specified was missing or invalid: photos_list is invalid
+08-05-2020 11:50 DEBUG получено событие
+08-05-2020 11:50 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 12:02 DEBUG получено событие
+08-05-2020 12:02 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 12:03 DEBUG получено событие
+08-05-2020 12:03 ERROR Ошибка в обработке события
+Traceback (most recent call last):
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 60, in run
+    self.on_event(event)
+  File "<string>", line 2, in on_event
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/core.py", line 528, in new_func
+    result = func(*args, **kwargs)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 84, in on_event
+    self.continue_scenario(text=text, state=state, user_id=user_id)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 143, in continue_scenario
+    self.sent_step(next_step, user_id, text, state.context)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 127, in sent_step
+    self.send_image(user_id=user_id, image=image)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 112, in send_image
+    image_data = self.api.photos.saveMessagesPhoto(**upload_date)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/vk_api/vk_api.py", line 681, in __call__
+    return self._vk.method(self._method, kwargs)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/vk_api/vk_api.py", line 646, in method
+    raise error
+vk_api.exceptions.ApiError: [100] One of the parameters specified was missing or invalid: photos_list is invalid
+08-05-2020 12:03 DEBUG получено событие
+08-05-2020 12:03 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 12:03 DEBUG получено событие
+08-05-2020 12:03 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 12:03 DEBUG получено событие
+08-05-2020 12:03 ERROR Ошибка в обработке события
+Traceback (most recent call last):
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 60, in run
+    self.on_event(event)
+  File "<string>", line 2, in on_event
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/core.py", line 528, in new_func
+    result = func(*args, **kwargs)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 84, in on_event
+    self.continue_scenario(text=text, state=state, user_id=user_id)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 144, in continue_scenario
+    self.sent_step(next_step, user_id, text, state.context)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 128, in sent_step
+    self.send_image(user_id=user_id, image=image)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 112, in send_image
+    image_data = self.api.photos.saveMessagesPhoto(**upload_date)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/vk_api/vk_api.py", line 681, in __call__
+    return self._vk.method(self._method, kwargs)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/vk_api/vk_api.py", line 646, in method
+    raise error
+vk_api.exceptions.ApiError: [100] One of the parameters specified was missing or invalid: photos_list is invalid
+08-05-2020 12:03 DEBUG получено событие
+08-05-2020 12:03 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 12:13 DEBUG получено событие
+08-05-2020 12:13 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 12:13 DEBUG получено событие
+08-05-2020 12:14 ERROR Ошибка в обработке события
+Traceback (most recent call last):
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 60, in run
+    self.on_event(event)
+  File "<string>", line 2, in on_event
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/core.py", line 528, in new_func
+    result = func(*args, **kwargs)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 84, in on_event
+    self.continue_scenario(text=text, state=state, user_id=user_id)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 144, in continue_scenario
+    self.sent_step(next_step, user_id, text, state.context)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 128, in sent_step
+    self.send_image(user_id=user_id, image=image)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 112, in send_image
+    image_data = self.api.photos.saveMessagesPhoto(**upload_date)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/vk_api/vk_api.py", line 681, in __call__
+    return self._vk.method(self._method, kwargs)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/vk_api/vk_api.py", line 646, in method
+    raise error
+vk_api.exceptions.ApiError: [100] One of the parameters specified was missing or invalid: photos_list is invalid
+08-05-2020 12:14 DEBUG получено событие
+08-05-2020 12:14 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 12:14 DEBUG получено событие
+08-05-2020 12:14 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 12:14 DEBUG получено событие
+08-05-2020 12:14 DEBUG получено событие
+08-05-2020 12:14 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 12:14 DEBUG получено событие
+08-05-2020 12:14 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 12:14 DEBUG получено событие
+08-05-2020 13:34 ERROR Ошибка в обработке события
+Traceback (most recent call last):
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 60, in run
+    self.on_event(event)
+  File "<string>", line 2, in on_event
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/core.py", line 528, in new_func
+    result = func(*args, **kwargs)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 84, in on_event
+    self.continue_scenario(text=text, state=state, user_id=user_id)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 144, in continue_scenario
+    self.sent_step(next_step, user_id, text, state.context)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 128, in sent_step
+    self.send_image(user_id=user_id, image=image)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 112, in send_image
+    image_data = self.api.photos.saveMessagesPhoto(**upload_date)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/vk_api/vk_api.py", line 681, in __call__
+    return self._vk.method(self._method, kwargs)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/vk_api/vk_api.py", line 646, in method
+    raise error
+vk_api.exceptions.ApiError: [100] One of the parameters specified was missing or invalid: photos_list is invalid
+08-05-2020 13:34 DEBUG получено событие
+08-05-2020 13:34 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 14:51 DEBUG получено событие
+08-05-2020 14:51 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 14:51 DEBUG получено событие
+08-05-2020 14:51 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 14:51 DEBUG получено событие
+08-05-2020 14:51 DEBUG получено событие
+08-05-2020 14:51 DEBUG получено событие
+08-05-2020 14:51 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 14:51 DEBUG получено событие
+08-05-2020 14:51 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 14:51 DEBUG получено событие
+08-05-2020 14:51 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 14:51 DEBUG получено событие
+08-05-2020 14:51 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 14:51 DEBUG получено событие
+08-05-2020 14:51 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 14:51 DEBUG получено событие
+08-05-2020 14:51 DEBUG получено событие
+08-05-2020 14:51 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 14:55 DEBUG получено событие
+08-05-2020 14:55 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 14:55 DEBUG получено событие
+08-05-2020 14:55 DEBUG получено событие
+08-05-2020 14:55 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 14:55 DEBUG получено событие
+08-05-2020 14:55 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 14:55 DEBUG получено событие
+08-05-2020 14:55 ERROR Ошибка в обработке события
+Traceback (most recent call last):
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 60, in run
+    self.on_event(event)
+  File "<string>", line 2, in on_event
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/pony/orm/core.py", line 528, in new_func
+    result = func(*args, **kwargs)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 84, in on_event
+    self.continue_scenario(text=text, state=state, user_id=user_id)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 144, in continue_scenario
+    self.sent_step(next_step, user_id, text, state.context)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 128, in sent_step
+    self.send_image(user_id=user_id, image=image)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_/bot.py", line 112, in send_image
+    image_data = self.api.photos.saveMessagesPhoto(**upload_date)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/vk_api/vk_api.py", line 681, in __call__
+    return self._vk.method(self._method, kwargs)
+  File "/Users/annushka/PycharmProjects/python_base/python_base/chatbot_env/lib/python3.7/site-packages/vk_api/vk_api.py", line 646, in method
+    raise error
+vk_api.exceptions.ApiError: [100] One of the parameters specified was missing or invalid: photos_list is invalid
+08-05-2020 14:55 DEBUG получено событие
+08-05-2020 14:55 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 14:56 DEBUG получено событие
+08-05-2020 14:56 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 14:56 DEBUG получено событие
+08-05-2020 14:56 DEBUG получено событие
+08-05-2020 14:56 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 14:58 DEBUG получено событие
+08-05-2020 14:58 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 14:58 DEBUG получено событие
+08-05-2020 14:58 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 14:58 DEBUG получено событие
+08-05-2020 14:58 DEBUG получено событие
+08-05-2020 14:58 DEBUG получено событие
+08-05-2020 14:58 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 14:58 DEBUG получено событие
+08-05-2020 14:58 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 14:58 DEBUG получено событие
+08-05-2020 14:58 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 14:58 DEBUG получено событие
+08-05-2020 14:58 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 15:05 DEBUG получено событие
+08-05-2020 15:05 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 15:05 DEBUG получено событие
+08-05-2020 15:05 DEBUG получено событие
+08-05-2020 15:05 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 15:06 DEBUG получено событие
+08-05-2020 15:06 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.GROUP_CHANGE_SETTINGS
+08-05-2020 15:06 DEBUG получено событие
+08-05-2020 15:06 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 15:06 DEBUG получено событие
+08-05-2020 15:06 DEBUG получено событие
+08-05-2020 15:06 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 15:10 DEBUG получено событие
+08-05-2020 15:10 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 15:10 DEBUG получено событие
+08-05-2020 15:10 DEBUG User gets {'name': 'Дата проведения', 'tokens': ('когда', 'сколько', 'дата', 'дату'), 'scenario': None, 'answer': 'Конференция проводится 9 мая, регистрация начнется в 10 утра'}
+08-05-2020 15:10 DEBUG User gets {'name': 'Место проведения', 'tokens': ('где', 'место', 'локация', 'адрес', 'метро'), 'scenario': None, 'answer': 'Конференция пройдет на Красной Площади, около Ленина'}
+08-05-2020 15:10 DEBUG User gets {'name': 'Регистрация', 'tokens': ('регист', 'добави'), 'scenario': 'registration', 'answer': None}
+08-05-2020 15:10 DEBUG получено событие
+08-05-2020 15:10 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 15:10 DEBUG получено событие
+08-05-2020 15:10 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 15:10 DEBUG получено событие
+08-05-2020 15:10 DEBUG User gets {'name': 'Дата проведения', 'tokens': ('когда', 'сколько', 'дата', 'дату'), 'scenario': None, 'answer': 'Конференция проводится 9 мая, регистрация начнется в 10 утра'}
+08-05-2020 15:10 DEBUG User gets {'name': 'Место проведения', 'tokens': ('где', 'место', 'локация', 'адрес', 'метро'), 'scenario': None, 'answer': 'Конференция пройдет на Красной Площади, около Ленина'}
+08-05-2020 15:10 DEBUG User gets {'name': 'Регистрация', 'tokens': ('регист', 'добави'), 'scenario': 'registration', 'answer': None}
+08-05-2020 15:10 DEBUG получено событие
+08-05-2020 15:10 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 15:11 DEBUG получено событие
+08-05-2020 15:11 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 15:11 DEBUG получено событие
+08-05-2020 15:11 DEBUG получено событие
+08-05-2020 15:11 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 15:14 DEBUG получено событие
+08-05-2020 15:14 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 15:14 DEBUG получено событие
+08-05-2020 15:14 DEBUG получено событие
+08-05-2020 15:14 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 16:44 DEBUG получено событие
+08-05-2020 16:44 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 16:44 DEBUG получено событие
+08-05-2020 16:44 DEBUG получено событие
+08-05-2020 16:44 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
+08-05-2020 16:58 DEBUG получено событие
+08-05-2020 16:58 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_TYPING_STATE
+08-05-2020 16:58 DEBUG получено событие
+08-05-2020 16:58 DEBUG получено событие
+08-05-2020 16:58 INFO мы пока не умеем обрабатывать событие такого типы VkBotEventType.MESSAGE_REPLY
